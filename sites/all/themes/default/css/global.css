@@ -206,6 +206,9 @@ input[type="button"]:hover,
     width: 60%; }
 
 /* Menu */
+.zone-branding-wrapper {
+  padding: 20px 0; }
+
 .block-superfish-1 {
   float: right; }
   .block-superfish-1 ul li a {
