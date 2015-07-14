@@ -194,4 +194,15 @@ input[type="button"]:hover,
   .paragraphs-item-2-kolommen-tekst-afbeelding-rech .field-name-field-afbeelding-rechts {
     margin-bottom: 20px; }
 
+/* Algemeen */
+#zone-user-wrapper {
+  background-color: #464b58; }
+
+#block-bean-social-media .field-item {
+  width: 10%;
+  float: right;
+  padding: 5px 0; }
+  #block-bean-social-media .field-item img {
+    width: 60%; }
+
 /*# sourceMappingURL=global.css.map */

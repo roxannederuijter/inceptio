@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Default - Beanblock feature.
+ */
+
+include_once 'default_beanblock.features.inc';
