@@ -225,4 +225,11 @@ input[type="button"]:hover,
   .block-superfish-1 ul li a.notactive {
     border-bottom: 3px solid transparent; }
 
+/* Banner */
+#zone-header {
+  width: 100%; }
+  #zone-header #region-header-first {
+    width: 100%;
+    margin: 0; }
+
 /*# sourceMappingURL=global.css.map */
