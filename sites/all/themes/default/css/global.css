@@ -205,4 +205,24 @@ input[type="button"]:hover,
   #block-bean-social-media .field-item img {
     width: 60%; }
 
+/* Menu */
+.block-superfish-1 {
+  float: right; }
+  .block-superfish-1 ul li a {
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.938em;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 32px 55px 0 0;
+    border-bottom: 3px solid transparent;
+    padding-bottom: 5px; }
+  .block-superfish-1 ul li a:hover {
+    color: #b1b351; }
+  .block-superfish-1 ul li a.active {
+    color: #000;
+    border-bottom: 3px solid #b1b351; }
+  .block-superfish-1 ul li a.notactive {
+    border-bottom: 3px solid transparent; }
+
 /*# sourceMappingURL=global.css.map */
