@@ -7,19 +7,16 @@
 @import 'default-style';
 
 /* Algemeen */
-#zone-user-wrapper {
-  background-color:$gray;
+a.button {
+  background-color: $green;
+  color: #fff;
+  padding: 14px 25px;
+  font-size: 1em;
+  display: inline-block;
 }
 
-#block-bean-social-media {
-  .field-item {
-    width:10%;
-    float:right;
-    padding:5px 0;
-    img {
-      width:60%;
-    }
-  }
+#zone-user-wrapper {
+  background-color:$gray;
 }
 
 h2 {
@@ -110,5 +107,41 @@ p {
 
   padding:50px 0;
   background-color:$gray;
+}
+
+/* Footer */
+.block-superfish-2 {
+  ul li {
+    margin: 0;
+    width:100%;
+    a {
+      color: #fff;
+      font-size: 1em;
+      padding: 4px 0;
+    }
+  }
+}
+
+#zone-footer-wrapper {
+  background-color:$green;
+  padding:50px 0;
+  h2.block-title {
+    float:left;
+    padding-bottom:0;
+    width:100%;
+    text-align:left;
+  }
+}
+
+#block-bean-social-media {
+  .field-item {
+    width:16%;
+    float:left;
+    padding:5px 0;
+    img {
+      width:60%;
+      float:left;
+    }
+  }
 }
 

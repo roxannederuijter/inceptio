@@ -22,7 +22,7 @@ function default_block_settings_default_fe_block_settings() {
     'roles' => array(),
     'themes' => array(
       'default' => array(
-        'region' => 'user_first',
+        'region' => 'footer_second',
         'status' => 1,
         'theme' => 'default',
         'weight' => 0,
@@ -34,7 +34,7 @@ function default_block_settings_default_fe_block_settings() {
         'weight' => 0,
       ),
     ),
-    'title' => '<none>',
+    'title' => 'Zie ook',
     'visibility' => 0,
   );
 
@@ -282,8 +282,8 @@ function default_block_settings_default_fe_block_settings() {
     'roles' => array(),
     'themes' => array(
       'default' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'footer_first',
+        'status' => 1,
         'theme' => 'default',
         'weight' => 0,
       ),
@@ -294,7 +294,7 @@ function default_block_settings_default_fe_block_settings() {
         'weight' => 0,
       ),
     ),
-    'title' => '',
+    'title' => 'Ga direct naar',
     'visibility' => 0,
   );
 
