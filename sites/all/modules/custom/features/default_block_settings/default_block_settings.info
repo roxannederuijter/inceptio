@@ -34,4 +34,5 @@ features[fe_block_settings][] = user-login
 features[fe_block_settings][] = user-new
 features[fe_block_settings][] = user-online
 features[fe_block_settings][] = views-banner-block
+features[fe_block_settings][] = views-portfolio-block
 features[features_api][] = api:2
