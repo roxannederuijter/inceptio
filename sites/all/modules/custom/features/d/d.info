@@ -15,6 +15,7 @@ dependencies[] = jquery_update
 dependencies[] = multiform
 dependencies[] = strongarm
 dependencies[] = uh_views_responsive
+dependencies[] = views_accordion
 dependencies[] = views_nodes_split
 dependencies[] = views_slideshow
 dependencies[] = views_slideshow_cycle

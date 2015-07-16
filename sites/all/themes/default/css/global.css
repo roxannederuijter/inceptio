@@ -307,4 +307,29 @@ p {
   .region-footer-third li a:hover {
     color: #000; }
 
+/* Over ons */
+.ui-icon {
+  background-position: 0 0;
+  background-image: url(img/square-plus.png) !important;
+  width: 23px;
+  height: 23px; }
+
+.ui-state-hover .ui-icon {
+  background-image: url(img/square-plus-blue.png) !important; }
+
+.views-field-field-vraag, .views-field-field-title {
+  border: none;
+  background: transparent url(images/ui-bg_glass_75_e6e6e6_1x400.png) 50% 50% repeat-x; }
+
+.views-accordion-header {
+  border: none; }
+
+.ui-accordion .ui-accordion-header .ui-accordion-header-icon {
+  top: 42%; }
+
+.ui-accordion .ui-accordion-content {
+  border: 1px solid #b1b351;
+  font-weight: 300;
+  font-size: 15px; }
+
 /*# sourceMappingURL=global.css.map */
