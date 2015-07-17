@@ -340,10 +340,16 @@ p {
   width: 100%; }
   .view-display-id-portfoliopagina .views-row .views-field-title {
     width: 60%;
-    float: left; }
+    float: left;
+    color: #fff; }
   .view-display-id-portfoliopagina .views-row .views-field-field-image {
     width: 20%;
-    float: left; }
+    float: left;
+    padding-right: 5%; }
+  .view-display-id-portfoliopagina .views-row .views-field-field-text {
+    width: 60%;
+    float: left;
+    color: #fff; }
 .view-display-id-portfoliopagina .views-row-odd {
   background-color: #b1b351; }
 .view-display-id-portfoliopagina .views-row-even {
