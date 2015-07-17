@@ -86,6 +86,9 @@ function view_portfolio_views_default_views() {
 
   /* Display: Pagina */
   $handler = $view->new_display('page', 'Pagina', 'portfoliopagina');
+  $handler->display->display_options['defaults']['pager'] = FALSE;
+  $handler->display->display_options['pager']['type'] = 'none';
+  $handler->display->display_options['pager']['options']['offset'] = '0';
   $handler->display->display_options['defaults']['style_plugin'] = FALSE;
   $handler->display->display_options['style_plugin'] = 'default';
   $handler->display->display_options['defaults']['style_options'] = FALSE;
