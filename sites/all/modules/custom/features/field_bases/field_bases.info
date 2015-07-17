@@ -19,4 +19,5 @@ features[field_base][] = field_paragraph_s
 features[field_base][] = field_tekst
 features[field_base][] = field_tekst_lang
 features[field_base][] = field_tekst_rechts
+features[field_base][] = field_text
 features[field_base][] = field_twitter
