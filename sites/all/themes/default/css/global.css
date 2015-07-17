@@ -341,7 +341,9 @@ p {
   .view-display-id-portfoliopagina .views-row .views-field-title {
     width: 60%;
     float: left;
-    color: #fff; }
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300; }
   .view-display-id-portfoliopagina .views-row .views-field-field-image {
     width: 20%;
     float: left;
