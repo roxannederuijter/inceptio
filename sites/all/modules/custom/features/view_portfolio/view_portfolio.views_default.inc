@@ -40,6 +40,11 @@ function view_portfolio_views_default_views() {
     'links' => 1,
     'comments' => 0,
   );
+  /* Footer: Global: Unfiltered text */
+  $handler->display->display_options['footer']['area_text_custom']['id'] = 'area_text_custom';
+  $handler->display->display_options['footer']['area_text_custom']['table'] = 'views';
+  $handler->display->display_options['footer']['area_text_custom']['field'] = 'area_text_custom';
+  $handler->display->display_options['footer']['area_text_custom']['content'] = '<a class="button" href="/portfolio">Meer portfolio\'s</a>';
   /* Field: Content: Title */
   $handler->display->display_options['fields']['title']['id'] = 'title';
   $handler->display->display_options['fields']['title']['table'] = 'node';
@@ -87,6 +92,7 @@ function view_portfolio_views_default_views() {
   $handler->display->display_options['defaults']['row_plugin'] = FALSE;
   $handler->display->display_options['row_plugin'] = 'fields';
   $handler->display->display_options['defaults']['row_options'] = FALSE;
+  $handler->display->display_options['defaults']['footer'] = FALSE;
   $handler->display->display_options['defaults']['fields'] = FALSE;
   /* Field: Field: Afbeelding */
   $handler->display->display_options['fields']['field_image']['id'] = 'field_image';
@@ -122,6 +128,7 @@ function view_portfolio_views_default_views() {
     t('Sort by'),
     t('Asc'),
     t('Desc'),
+    t('<a class="button" href="/portfolio">Meer portfolio\'s</a>'),
     t('Afbeelding'),
     t('Block'),
     t('Pagina'),
