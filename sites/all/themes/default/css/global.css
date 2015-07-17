@@ -333,4 +333,20 @@ p {
   font-size: 15px;
   width: 80%; }
 
+/* Portfolio pagina */
+.view-display-id-portfoliopagina .views-row {
+  padding: 15px;
+  float: left;
+  width: 100%; }
+  .view-display-id-portfoliopagina .views-row .views-field-title {
+    width: 60%;
+    float: left; }
+  .view-display-id-portfoliopagina .views-row .views-field-field-image {
+    width: 20%;
+    float: left; }
+.view-display-id-portfoliopagina .views-row-odd {
+  background-color: #b1b351; }
+.view-display-id-portfoliopagina .views-row-even {
+  background-color: #353535; }
+
 /*# sourceMappingURL=global.css.map */

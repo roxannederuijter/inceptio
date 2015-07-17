@@ -192,3 +192,27 @@ p {
   font-size:15px;
   width:80%;
 }
+
+
+/* Portfolio pagina */
+.view-display-id-portfoliopagina {
+  .views-row {
+    padding:15px;
+    float:left;
+    width:100%;
+    .views-field-title {
+      width:60%;
+      float:left;
+    }
+    .views-field-field-image {
+      width:20%;
+      float:left;
+    }
+  }
+  .views-row-odd {
+    background-color:$green;
+  }
+  .views-row-even {
+    background-color:$gray;
+  }
+}
