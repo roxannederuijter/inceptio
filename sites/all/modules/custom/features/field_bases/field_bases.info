@@ -8,6 +8,7 @@ dependencies[] = linkimagefield
 dependencies[] = paragraphs
 dependencies[] = text
 features[features_api][] = api:2
+features[field_base][] = body
 features[field_base][] = comment_body
 features[field_base][] = field_afbeelding
 features[field_base][] = field_afbeelding_rechts
