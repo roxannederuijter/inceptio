@@ -362,7 +362,7 @@ p {
 
 /* Vacatures */
 .block-views-vacatures-block-1 .views-row {
-  width: 40%;
+  width: 50%;
   float: left;
   color: #fff; }
   .block-views-vacatures-block-1 .views-row .views-field-field-image {
@@ -380,7 +380,8 @@ p {
     font-size: 1em;
     display: inline-block; }
 .block-views-vacatures-block-1 .views-row-odd {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  padding-left: 10%; }
 .block-views-vacatures-block-1 .views-row-even {
   box-sizing: border-box; }
 
