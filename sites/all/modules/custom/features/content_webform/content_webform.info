@@ -1,0 +1,11 @@
+name = Content - Webform
+core = 7.x
+package = Content
+dependencies[] = ctools
+dependencies[] = features
+dependencies[] = node
+dependencies[] = strongarm
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2
+features[node][] = webform
+features[variable][] = comment_webform

@@ -57,13 +57,13 @@ function views_vacatures_views_default_views() {
   $handler->display->display_options['fields']['body']['field'] = 'body';
   $handler->display->display_options['fields']['body']['label'] = '';
   $handler->display->display_options['fields']['body']['element_label_colon'] = FALSE;
-  /* Field: Content: Link */
-  $handler->display->display_options['fields']['view_node']['id'] = 'view_node';
-  $handler->display->display_options['fields']['view_node']['table'] = 'views_entity_node';
-  $handler->display->display_options['fields']['view_node']['field'] = 'view_node';
-  $handler->display->display_options['fields']['view_node']['label'] = '';
-  $handler->display->display_options['fields']['view_node']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['view_node']['text'] = 'Solliciteren';
+  /* Field: Content: vacature */
+  $handler->display->display_options['fields']['field_vacature']['id'] = 'field_vacature';
+  $handler->display->display_options['fields']['field_vacature']['table'] = 'field_data_field_vacature';
+  $handler->display->display_options['fields']['field_vacature']['field'] = 'field_vacature';
+  $handler->display->display_options['fields']['field_vacature']['label'] = '';
+  $handler->display->display_options['fields']['field_vacature']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_vacature']['click_sort_column'] = 'url';
   /* Sort criterion: Content: Post date */
   $handler->display->display_options['sorts']['created']['id'] = 'created';
   $handler->display->display_options['sorts']['created']['table'] = 'node';
@@ -95,7 +95,6 @@ function views_vacatures_views_default_views() {
     t('Sort by'),
     t('Asc'),
     t('Desc'),
-    t('Solliciteren'),
     t('Blok'),
   );
   $export['vacatures'] = $view;

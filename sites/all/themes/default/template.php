@@ -17,3 +17,4 @@ function default_preprocess_html(&$vars) {
     'type' => 'external'
   ));
 }
+
