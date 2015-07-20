@@ -381,7 +381,9 @@ p {
     font-size: 1em;
     display: inline-block; }
 .block-views-vacatures-block-1 .views-row-odd {
-  padding-right: 10%; }
+  padding-right: 5%; }
+.block-views-vacatures-block-1 .views-row-even {
+  padding-left: 5%; }
 
 /* Webform */
 .node-webform {
