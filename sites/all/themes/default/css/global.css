@@ -393,7 +393,6 @@ p {
   float: left;
   width: 100%;
   padding-left: 0;
-  font-family: "Open Sans", sans-serif;
   color: #000; }
 .node-webform .webform-component-fieldset {
   width: 50%;
@@ -407,6 +406,8 @@ p {
   color: #fff;
   padding: 14px 25px;
   font-size: 1em;
-  display: inline-block; }
+  display: inline-block;
+  border-radius: 0;
+  font-weight: 300; }
 
 /*# sourceMappingURL=global.css.map */

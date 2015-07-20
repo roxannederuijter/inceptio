@@ -267,6 +267,7 @@ p {
 
 /* Webform */
 .node-webform {
+  font-family:$font;
   #edit-submitted-titel {
     border:none;
     font-weight:300;
@@ -275,7 +276,6 @@ p {
     float: left;
     width: 100%;
     padding-left: 0;
-    font-family:$font;
     color:#000;
   }
   .webform-component-fieldset {
@@ -288,10 +288,12 @@ p {
     }
   }
   input[type="submit"] {
-    background-color: $green;
+    background-color: #b1b351;
     color: #fff;
     padding: 14px 25px;
     font-size: 1em;
     display: inline-block;
+    border-radius: 0;
+    font-weight: 300;
   }
 }
