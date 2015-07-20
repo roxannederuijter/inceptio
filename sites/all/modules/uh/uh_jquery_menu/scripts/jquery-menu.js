@@ -7,3 +7,15 @@
         $("#superfish-1").toggleClass("smaller", $(document).scrollTop()>60);
     });
 })(jQuery);
+
+function equalHeight() {
+    var height = 0;
+    var $items = $('.views-row');
+    $items.each(function() {
+        if($(this).height() > height) {
+            height = $(this).height();
+        }
+    });
+
+    $items.css('height', height);
+}
