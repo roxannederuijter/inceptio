@@ -384,4 +384,11 @@ p {
 .block-views-vacatures-block-1 .views-row-even {
   padding-left: 5%; }
 
+/* Webform */
+.node-webform .edit-submitted-titel {
+  border: none;
+  font-weight: 300;
+  font-size: 24px;
+  color: #b1b351; }
+
 /*# sourceMappingURL=global.css.map */
