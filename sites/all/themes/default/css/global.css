@@ -414,5 +414,7 @@ p {
   .node-webform .form-actions {
     width: 50%;
     float: right; }
+  .node-webform .views-row {
+    box-sizing: border-box; }
 
 /*# sourceMappingURL=global.css.map */
