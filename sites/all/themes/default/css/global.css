@@ -360,4 +360,24 @@ p {
 .view-footer {
   text-align: center; }
 
+/* Vacatures */
+.block-views-vacatures-block-1 .views-row {
+  width: 40%;
+  float: left;
+  color: #fff; }
+  .block-views-vacatures-block-1 .views-row .views-field-field-image {
+    float: left; }
+  .block-views-vacatures-block-1 .views-row .views-field-title {
+    font-weight: 300;
+    font-size: 24px;
+    color: #b1b351; }
+  .block-views-vacatures-block-1 .views-row li {
+    margin-left: 20px; }
+  .block-views-vacatures-block-1 .views-row .views-field-view-node a {
+    background-color: #b1b351;
+    color: #fff;
+    padding: 14px 25px;
+    font-size: 1em;
+    display: inline-block; }
+
 /*# sourceMappingURL=global.css.map */

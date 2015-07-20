@@ -229,3 +229,32 @@ p {
 .view-footer {
   text-align:center;
 }
+
+/* Vacatures */
+.block-views-vacatures-block-1 {
+  .views-row {
+    width:40%;
+    float:left;
+    color:#fff;
+    .views-field-field-image {
+      float:left;
+    }
+    .views-field-title {
+      font-weight: 300;
+      font-size:24px;
+      color:$green;
+    }
+    li {
+      margin-left:20px;
+    }
+    .views-field-view-node {
+      a {
+        background-color: $green;
+        color: #fff;
+        padding: 14px 25px;
+        font-size: 1em;
+        display: inline-block;
+      }
+    }
+  }
+}
