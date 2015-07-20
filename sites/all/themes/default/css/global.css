@@ -380,6 +380,10 @@ p {
     padding: 14px 25px;
     font-size: 1em;
     display: inline-block; }
+  .block-views-vacatures-block-1 .views-row .views-field-field-image {
+    width: 100%; }
+    .block-views-vacatures-block-1 .views-row .views-field-field-image img {
+      float: left; }
 .block-views-vacatures-block-1 .views-row-odd {
   padding-right: 5%; }
 .block-views-vacatures-block-1 .views-row-even {

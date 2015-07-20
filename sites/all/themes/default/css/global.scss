@@ -257,6 +257,12 @@ p {
         display: inline-block;
       }
     }
+    .views-field-field-image {
+      width:100%;
+      img {
+        float:left;
+      }
+    }
   }
   .views-row-odd {
     padding-right: 5%;
