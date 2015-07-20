@@ -392,6 +392,8 @@ p {
   box-shadow: none;
   float: left;
   width: 100%;
-  padding-left: 0; }
+  padding-left: 0;
+  font-family: "Open Sans", sans-serif;
+  color: #000; }
 
 /*# sourceMappingURL=global.css.map */
