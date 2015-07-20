@@ -259,9 +259,11 @@ p {
   }
   .views-row-odd {
     padding-right:5%;
+    box-sizing:border-box;
   }
   .views-row-even {
     padding-left:5%;
+    box-sizing:border-box;
   }
 }
 
@@ -299,8 +301,5 @@ p {
   .form-actions {
     width: 50%;
     float: right;
-  }
-  .views-row {
-    box-sizing: border-box;
   }
 }

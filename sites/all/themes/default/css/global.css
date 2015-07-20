@@ -380,9 +380,11 @@ p {
     font-size: 1em;
     display: inline-block; }
 .block-views-vacatures-block-1 .views-row-odd {
-  padding-right: 5%; }
+  padding-right: 5%;
+  box-sizing: border-box; }
 .block-views-vacatures-block-1 .views-row-even {
-  padding-left: 5%; }
+  padding-left: 5%;
+  box-sizing: border-box; }
 
 /* Webform */
 .node-webform {
@@ -414,7 +416,5 @@ p {
   .node-webform .form-actions {
     width: 50%;
     float: right; }
-  .node-webform .views-row {
-    box-sizing: border-box; }
 
 /*# sourceMappingURL=global.css.map */
