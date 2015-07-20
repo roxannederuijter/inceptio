@@ -278,4 +278,13 @@ p {
     font-family:$font;
     color:#000;
   }
+  .webform-component-fieldset {
+    width:50%;
+    float:left;
+    .fieldset-title {
+      font-size: 18px;
+      font-weight: 300;
+      color: $green;
+    }
+  }
 }

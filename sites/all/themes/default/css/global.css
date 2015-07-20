@@ -395,5 +395,12 @@ p {
   padding-left: 0;
   font-family: "Open Sans", sans-serif;
   color: #000; }
+.node-webform .webform-component-fieldset {
+  width: 50%;
+  float: left; }
+  .node-webform .webform-component-fieldset .fieldset-title {
+    font-size: 18px;
+    font-weight: 300;
+    color: #b1b351; }
 
 /*# sourceMappingURL=global.css.map */
