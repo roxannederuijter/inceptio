@@ -402,5 +402,11 @@ p {
     font-size: 18px;
     font-weight: 300;
     color: #b1b351; }
+.node-webform input[type="submit"] {
+  background-color: #b1b351;
+  color: #fff;
+  padding: 14px 25px;
+  font-size: 1em;
+  display: inline-block; }
 
 /*# sourceMappingURL=global.css.map */

@@ -287,4 +287,11 @@ p {
       color: $green;
     }
   }
+  input[type="submit"] {
+    background-color: $green;
+    color: #fff;
+    padding: 14px 25px;
+    font-size: 1em;
+    display: inline-block;
+  }
 }
