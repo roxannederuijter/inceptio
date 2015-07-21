@@ -1,0 +1,5 @@
+<?php
+function uh_jquery_height_init(){
+  drupal_add_js(drupal_get_path('module', 'uh_jquery_height') .'/scripts/jquery-height.js');
+
+}
