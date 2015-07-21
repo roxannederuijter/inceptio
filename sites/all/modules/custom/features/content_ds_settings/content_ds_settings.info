@@ -6,6 +6,7 @@ dependencies[] = ds
 features[ctools][] = ds:ds:1
 features[ds_field_settings][] = node|page|default
 features[ds_field_settings][] = node|partners|default
+features[ds_field_settings][] = node|webform|default
 features[ds_layout_settings][] = node|page|default
 features[ds_layout_settings][] = node|partners|default
 features[ds_layout_settings][] = node|portfolio|project_large
