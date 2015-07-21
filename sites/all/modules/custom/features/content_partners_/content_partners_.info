@@ -1,4 +1,4 @@
-name = Content - Partners 
+name = Content - Partners
 core = 7.x
 package = Content
 dependencies[] = ctools
