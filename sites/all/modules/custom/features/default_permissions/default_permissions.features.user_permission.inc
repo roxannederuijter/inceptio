@@ -581,6 +581,15 @@ function default_permissions_user_default_permissions() {
     'module' => 'user',
   );
 
+  // Exported permission: 'create any greenagent_banner bean'.
+  $permissions['create any greenagent_banner bean'] = array(
+    'name' => 'create any greenagent_banner bean',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'bean',
+  );
+
   // Exported permission: 'create any social_media bean'.
   $permissions['create any social_media bean'] = array(
     'name' => 'create any social_media bean',
@@ -652,6 +661,15 @@ function default_permissions_user_default_permissions() {
     'name' => 'delete any document files',
     'roles' => array(),
     'module' => 'file_entity',
+  );
+
+  // Exported permission: 'delete any greenagent_banner bean'.
+  $permissions['delete any greenagent_banner bean'] = array(
+    'name' => 'delete any greenagent_banner bean',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'bean',
   );
 
   // Exported permission: 'delete any image files'.
@@ -837,6 +855,15 @@ function default_permissions_user_default_permissions() {
     'name' => 'edit any document files',
     'roles' => array(),
     'module' => 'file_entity',
+  );
+
+  // Exported permission: 'edit any greenagent_banner bean'.
+  $permissions['edit any greenagent_banner bean'] = array(
+    'name' => 'edit any greenagent_banner bean',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'bean',
   );
 
   // Exported permission: 'edit any image files'.
@@ -1127,6 +1154,17 @@ function default_permissions_user_default_permissions() {
       'administrator' => 'administrator',
     ),
     'module' => 'filter',
+  );
+
+  // Exported permission: 'view any greenagent_banner bean'.
+  $permissions['view any greenagent_banner bean'] = array(
+    'name' => 'view any greenagent_banner bean',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'anonymous user' => 'anonymous user',
+      'authenticated user' => 'authenticated user',
+    ),
+    'module' => 'bean',
   );
 
   // Exported permission: 'view any social_media bean'.

@@ -12,6 +12,32 @@ function default_block_settings_default_fe_block_settings() {
 
   $export['version'] = '2.0';
 
+  $export['bean-greenagent-banner'] = array(
+    'cache' => 1,
+    'custom' => 0,
+    'delta' => 'greenagent-banner',
+    'module' => 'bean',
+    'node_types' => array(),
+    'pages' => 'greenagents*',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => 'header_first',
+        'status' => 1,
+        'theme' => 'default',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 1,
+  );
+
   $export['bean-social-media'] = array(
     'cache' => 1,
     'custom' => 0,
@@ -668,7 +694,8 @@ function default_block_settings_default_fe_block_settings() {
     'delta' => 'banner-block',
     'module' => 'views',
     'node_types' => array(),
-    'pages' => 'neem-contact-met-ons-op',
+    'pages' => 'neem-contact-met-ons-op
+greenagents*',
     'roles' => array(),
     'themes' => array(
       'default' => array(
