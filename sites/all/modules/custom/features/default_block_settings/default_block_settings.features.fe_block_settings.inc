@@ -64,6 +64,32 @@ function default_block_settings_default_fe_block_settings() {
     'visibility' => 0,
   );
 
+  $export['block-googlemaps'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'machine_name' => 'googlemaps',
+    'module' => 'block',
+    'node_types' => array(),
+    'pages' => 'neem-contact-met-ons-op',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => 'header_first',
+        'status' => 1,
+        'theme' => 'default',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 1,
+  );
+
   $export['devel-execute_php'] = array(
     'cache' => -1,
     'custom' => 0,
@@ -642,7 +668,7 @@ function default_block_settings_default_fe_block_settings() {
     'delta' => 'banner-block',
     'module' => 'views',
     'node_types' => array(),
-    'pages' => '',
+    'pages' => 'neem-contact-met-ons-op',
     'roles' => array(),
     'themes' => array(
       'default' => array(

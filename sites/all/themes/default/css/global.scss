@@ -371,3 +371,23 @@ p {
 #zone-postscript {
   padding-bottom:50px;
 }
+
+/* Contact */
+iframe {
+  width:100%;
+}
+
+.context-neem-contact-met-ons-op {
+  .webform-component {
+    width:80%;
+    margin:0 auto;
+  }
+  input[type="text"], input[type="email"], .form-textarea-wrapper, textarea {
+    margin:0 auto;
+    margin-bottom:15px;
+  }
+  .node-webform .form-actions {
+    width: 100%;
+    text-align: center;
+  }
+}

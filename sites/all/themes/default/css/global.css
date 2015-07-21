@@ -470,4 +470,18 @@ p {
 #zone-postscript {
   padding-bottom: 50px; }
 
+/* Contact */
+iframe {
+  width: 100%; }
+
+.context-neem-contact-met-ons-op .webform-component {
+  width: 80%;
+  margin: 0 auto; }
+.context-neem-contact-met-ons-op input[type="text"], .context-neem-contact-met-ons-op input[type="email"], .context-neem-contact-met-ons-op .form-textarea-wrapper, .context-neem-contact-met-ons-op textarea {
+  margin: 0 auto;
+  margin-bottom: 15px; }
+.context-neem-contact-met-ons-op .node-webform .form-actions {
+  width: 100%;
+  text-align: center; }
+
 /*# sourceMappingURL=global.css.map */
