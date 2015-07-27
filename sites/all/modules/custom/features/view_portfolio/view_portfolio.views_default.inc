@@ -140,6 +140,34 @@ function view_portfolio_views_default_views() {
     'portfolio' => 'portfolio',
   );
   $handler->display->display_options['path'] = 'portfolio';
+
+  /* Display: Block greenagents */
+  $handler = $view->new_display('block', 'Block greenagents', 'block_1');
+  $handler->display->display_options['defaults']['filter_groups'] = FALSE;
+  $handler->display->display_options['defaults']['filters'] = FALSE;
+  /* Filter criterion: Content: Published */
+  $handler->display->display_options['filters']['status']['id'] = 'status';
+  $handler->display->display_options['filters']['status']['table'] = 'node';
+  $handler->display->display_options['filters']['status']['field'] = 'status';
+  $handler->display->display_options['filters']['status']['value'] = 1;
+  $handler->display->display_options['filters']['status']['group'] = 1;
+  $handler->display->display_options['filters']['status']['expose']['operator'] = FALSE;
+  /* Filter criterion: Content: Type */
+  $handler->display->display_options['filters']['type']['id'] = 'type';
+  $handler->display->display_options['filters']['type']['table'] = 'node';
+  $handler->display->display_options['filters']['type']['field'] = 'type';
+  $handler->display->display_options['filters']['type']['value'] = array(
+    'portfolio' => 'portfolio',
+  );
+  /* Filter criterion: Content: Bedrijf (field_bedrijf) */
+  $handler->display->display_options['filters']['field_bedrijf_tid']['id'] = 'field_bedrijf_tid';
+  $handler->display->display_options['filters']['field_bedrijf_tid']['table'] = 'field_data_field_bedrijf';
+  $handler->display->display_options['filters']['field_bedrijf_tid']['field'] = 'field_bedrijf_tid';
+  $handler->display->display_options['filters']['field_bedrijf_tid']['value'] = array(
+    2 => '2',
+  );
+  $handler->display->display_options['filters']['field_bedrijf_tid']['type'] = 'select';
+  $handler->display->display_options['filters']['field_bedrijf_tid']['vocabulary'] = 'bedrijf';
   $translatables['portfolio'] = array(
     t('Master'),
     t('portfolio'),
@@ -153,6 +181,7 @@ function view_portfolio_views_default_views() {
     t('Afbeelding'),
     t('Block'),
     t('Pagina'),
+    t('Block greenagents'),
   );
   $export['portfolio'] = $view;
 

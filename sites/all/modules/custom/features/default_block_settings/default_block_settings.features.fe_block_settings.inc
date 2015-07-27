@@ -767,6 +767,32 @@ greenagents*',
     'visibility' => 1,
   );
 
+  $export['views-portfolio-block_1'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'delta' => 'portfolio-block_1',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => 'greenagents',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => 'postscript_first',
+        'status' => 1,
+        'theme' => 'default',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => 'Portfolio',
+    'visibility' => 1,
+  );
+
   $export['views-vacatures-block_1'] = array(
     'cache' => -1,
     'custom' => 0,
