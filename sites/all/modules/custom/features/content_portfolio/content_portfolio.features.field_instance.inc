@@ -10,6 +10,55 @@
 function content_portfolio_field_default_field_instances() {
   $field_instances = array();
 
+  // Exported field_instance: 'node-portfolio-field_bedrijf'
+  $field_instances['node-portfolio-field_bedrijf'] = array(
+    'bundle' => 'portfolio',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'taxonomy',
+        'settings' => array(),
+        'type' => 'taxonomy_term_reference_link',
+        'weight' => 2,
+      ),
+      'project_large' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'project_small' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_bedrijf',
+    'label' => 'Bedrijf',
+    'required' => 0,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'options',
+      'settings' => array(),
+      'type' => 'options_buttons',
+      'weight' => 44,
+    ),
+  );
+
   // Exported field_instance: 'node-portfolio-field_image'
   $field_instances['node-portfolio-field_image'] = array(
     'bundle' => 'portfolio',
@@ -149,6 +198,7 @@ function content_portfolio_field_default_field_instances() {
   // Translatables
   // Included for use with string extractors like potx.
   t('Afbeelding');
+  t('Bedrijf');
   t('Tekst');
 
   return $field_instances;
