@@ -507,7 +507,7 @@ iframe {
   display: none; }
 #block-views-pdf-block img.file-icon {
   display: none; }
-#block-views-pdf-block a {
+#block-views-pdf-block .field-name-field-pdf-field {
   text-align: center; }
 
 /*# sourceMappingURL=global.css.map */
