@@ -272,7 +272,7 @@ function view_portfolio_views_default_views() {
   );
   $handler->display->display_options['filters']['field_bedrijf_tid']['type'] = 'select';
   $handler->display->display_options['filters']['field_bedrijf_tid']['vocabulary'] = 'bedrijf';
-  $handler->display->display_options['path'] = 'portfolio';
+  $handler->display->display_options['path'] = 'greenagents/portfolio';
   $translatables['portfolio'] = array(
     t('Master'),
     t('portfolio'),
