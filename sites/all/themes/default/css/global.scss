@@ -414,3 +414,18 @@ iframe {
     text-align: center;
   }
 }
+
+/* Pdf */
+#block-views-pdf-block {
+  span.file-size {
+    display:none;
+  }
+
+  img.file-icon {
+    display:none;
+  }
+
+  a {
+    text-align:center;
+  }
+}

@@ -502,4 +502,12 @@ iframe {
   width: 100%;
   text-align: center; }
 
+/* Pdf */
+#block-views-pdf-block span.file-size {
+  display: none; }
+#block-views-pdf-block img.file-icon {
+  display: none; }
+#block-views-pdf-block a {
+  text-align: center; }
+
 /*# sourceMappingURL=global.css.map */
