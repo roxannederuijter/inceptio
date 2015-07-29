@@ -352,27 +352,27 @@ p {
   width: 80%; }
 
 /* Portfolio pagina */
-.view-display-id-portfoliopagina .views-row {
+.view-display-id-portfoliopagina .views-row, .view-display-id-portfoliopagina_greenagents .views-row {
   padding: 15px;
   float: left;
   width: 100%; }
-  .view-display-id-portfoliopagina .views-row .views-field-title {
+  .view-display-id-portfoliopagina .views-row .views-field-title, .view-display-id-portfoliopagina_greenagents .views-row .views-field-title {
     width: 60%;
     float: left;
     color: #fff;
     font-size: 18px;
     font-weight: 300; }
-  .view-display-id-portfoliopagina .views-row .views-field-field-image {
+  .view-display-id-portfoliopagina .views-row .views-field-field-image, .view-display-id-portfoliopagina_greenagents .views-row .views-field-field-image {
     width: 20%;
     float: left;
     padding-right: 5%; }
-  .view-display-id-portfoliopagina .views-row .views-field-field-text {
+  .view-display-id-portfoliopagina .views-row .views-field-field-text, .view-display-id-portfoliopagina_greenagents .views-row .views-field-field-text {
     width: 60%;
     float: left;
     color: #fff; }
-.view-display-id-portfoliopagina .views-row-odd {
+.view-display-id-portfoliopagina .views-row-odd, .view-display-id-portfoliopagina_greenagents .views-row-odd {
   background-color: #b1b351; }
-.view-display-id-portfoliopagina .views-row-even {
+.view-display-id-portfoliopagina .views-row-even, .view-display-id-portfoliopagina_greenagents .views-row-even {
   background-color: #353535; }
 
 .view-footer {
