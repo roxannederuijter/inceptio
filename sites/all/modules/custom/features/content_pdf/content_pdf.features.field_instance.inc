@@ -76,7 +76,7 @@ function content_pdf_field_default_field_instances() {
         'label' => 'hidden',
         'module' => 'file_entity',
         'settings' => array(
-          'text' => 'Download [file:name]',
+          'text' => 'Download [file:field_title]',
         ),
         'type' => 'file_download_link',
         'weight' => 1,
