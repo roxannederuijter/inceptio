@@ -182,6 +182,12 @@ function view_portfolio_views_default_views() {
 
   /* Display: Block greenagents */
   $handler = $view->new_display('block', 'Block greenagents', 'block_1');
+  $handler->display->display_options['defaults']['footer'] = FALSE;
+  /* Footer: Global: Unfiltered text */
+  $handler->display->display_options['footer']['area_text_custom']['id'] = 'area_text_custom';
+  $handler->display->display_options['footer']['area_text_custom']['table'] = 'views';
+  $handler->display->display_options['footer']['area_text_custom']['field'] = 'area_text_custom';
+  $handler->display->display_options['footer']['area_text_custom']['content'] = '<a class="button" href="/greenagents/portfolio">Meer portfolio\'s</a>';
   $handler->display->display_options['defaults']['filter_groups'] = FALSE;
   $handler->display->display_options['defaults']['filters'] = FALSE;
   /* Filter criterion: Content: Published */
@@ -287,6 +293,7 @@ function view_portfolio_views_default_views() {
     t('Block'),
     t('Pagina'),
     t('Block greenagents'),
+    t('<a class="button" href="/greenagents/portfolio">Meer portfolio\'s</a>'),
     t('Pagina Greenagents'),
   );
   $export['portfolio'] = $view;
