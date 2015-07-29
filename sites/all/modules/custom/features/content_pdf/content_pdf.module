@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Content - pdf feature.
+ */
+
+include_once 'content_pdf.features.inc';

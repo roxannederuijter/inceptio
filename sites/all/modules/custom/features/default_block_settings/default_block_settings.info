@@ -46,6 +46,7 @@ features[fe_block_settings][] = user-new
 features[fe_block_settings][] = user-online
 features[fe_block_settings][] = views-banner-block
 features[fe_block_settings][] = views-partners-block
+features[fe_block_settings][] = views-pdf-block
 features[fe_block_settings][] = views-portfolio-block
 features[fe_block_settings][] = views-portfolio-block_1
 features[fe_block_settings][] = views-vacatures-block_1

@@ -17,11 +17,6 @@
             }
         }
 
-        jQuery(".ui-accordion .ui-accordion-content").accordion(
-            {
-                autoHeight:false
-            }
-        );
     });
 
 })(jQuery);

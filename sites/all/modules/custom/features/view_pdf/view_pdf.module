@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the View - pdf feature.
+ */
+
+include_once 'view_pdf.features.inc';
