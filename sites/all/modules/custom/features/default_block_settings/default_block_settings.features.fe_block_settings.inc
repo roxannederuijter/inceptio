@@ -64,6 +64,32 @@ function default_block_settings_default_fe_block_settings() {
     'visibility' => 0,
   );
 
+  $export['block-blocktitel'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'machine_name' => 'blocktitel',
+    'module' => 'block',
+    'node_types' => array(),
+    'pages' => 'greenagents',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => 'postscript_second',
+        'status' => 1,
+        'theme' => 'default',
+        'weight' => -17,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 1,
+  );
+
   $export['block-contact'] = array(
     'cache' => -1,
     'custom' => 0,
@@ -728,7 +754,7 @@ greenagents*',
         'region' => 'postscript_second',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -16,
+        'weight' => -15,
       ),
       'seven' => array(
         'region' => '',
@@ -780,7 +806,7 @@ greenagents*',
         'region' => 'postscript_second',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -17,
+        'weight' => -16,
       ),
       'seven' => array(
         'region' => '',

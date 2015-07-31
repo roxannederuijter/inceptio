@@ -11,6 +11,15 @@ function default_block_settings_default_fe_block_boxes() {
   $export = array();
 
   $fe_block_boxes = new stdClass();
+  $fe_block_boxes->info = 'blocktitel';
+  $fe_block_boxes->format = 'filtered_html';
+  $fe_block_boxes->machine_name = 'blocktitel';
+  $fe_block_boxes->body = '<h2>Diensten</h2>
+';
+
+  $export['blocktitel'] = $fe_block_boxes;
+
+  $fe_block_boxes = new stdClass();
   $fe_block_boxes->info = 'Contact';
   $fe_block_boxes->format = 'full_html';
   $fe_block_boxes->machine_name = 'contact';
