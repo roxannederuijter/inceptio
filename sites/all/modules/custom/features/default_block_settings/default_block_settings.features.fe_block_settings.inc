@@ -725,10 +725,10 @@ greenagents*',
     'roles' => array(),
     'themes' => array(
       'default' => array(
-        'region' => 'postscript_second',
+        'region' => 'postscript_third',
         'status' => 1,
         'theme' => 'default',
-        'weight' => 0,
+        'weight' => -16,
       ),
       'seven' => array(
         'region' => '',
@@ -780,7 +780,7 @@ greenagents*',
         'region' => 'postscript_second',
         'status' => 1,
         'theme' => 'default',
-        'weight' => 0,
+        'weight' => -17,
       ),
       'seven' => array(
         'region' => '',
