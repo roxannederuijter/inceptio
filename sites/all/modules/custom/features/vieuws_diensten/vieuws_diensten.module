@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Vieuws - diensten feature.
+ */
+
+include_once 'vieuws_diensten.features.inc';

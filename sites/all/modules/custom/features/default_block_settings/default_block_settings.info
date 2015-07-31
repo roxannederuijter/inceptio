@@ -45,6 +45,7 @@ features[fe_block_settings][] = user-login
 features[fe_block_settings][] = user-new
 features[fe_block_settings][] = user-online
 features[fe_block_settings][] = views-banner-block
+features[fe_block_settings][] = views-greenagents_diensten-block
 features[fe_block_settings][] = views-partners-block
 features[fe_block_settings][] = views-pdf-block
 features[fe_block_settings][] = views-portfolio-block
