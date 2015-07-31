@@ -511,7 +511,14 @@ iframe {
   text-align: center; }
 
 /* Diensten */
-#block-views-greenagents-diensten-block .views-row {
+#block-views-greenagents-diensten-block {
+  width: 80% !important;
+  float: left; }
+  #block-views-greenagents-diensten-block .views-row {
+    width: 25%;
+    float: left; }
+
+#block-views-pdf-block {
   width: 20%;
   float: left; }
 
