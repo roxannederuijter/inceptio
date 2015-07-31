@@ -738,7 +738,7 @@ greenagents*',
       ),
     ),
     'title' => 'Diensten',
-    'visibility' => 0,
+    'visibility' => 1,
   );
 
   $export['views-partners-block'] = array(
