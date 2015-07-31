@@ -725,7 +725,7 @@ greenagents*',
     'roles' => array(),
     'themes' => array(
       'default' => array(
-        'region' => 'postscript_third',
+        'region' => 'postscript_second',
         'status' => 1,
         'theme' => 'default',
         'weight' => -16,
