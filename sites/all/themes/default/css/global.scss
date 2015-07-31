@@ -437,6 +437,12 @@ iframe {
   .views-row {
     width: 25%;
     float: left;
+    .views-field-title {
+      text-align:center;
+      a {
+        color:#000;
+      }
+    }
   }
 }
 
