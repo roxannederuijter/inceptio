@@ -737,7 +737,7 @@ greenagents*',
         'weight' => 0,
       ),
     ),
-    'title' => 'Diensten',
+    'title' => '<none>',
     'visibility' => 1,
   );
 
