@@ -115,37 +115,24 @@ iframe {
 
 /* Webform */
 .node-webform {
-  font-family:$font;
-  #edit-submitted-titel {
-    border:none;
-    font-weight:300;
-    font-size:24px;
-    box-shadow: none;
-    float: left;
-    width: 100%;
-    padding-left: 0;
-    color:#000;
-  }
   .webform-component-fieldset {
     width:50%;
-    float:left;
-    .fieldset-title {
-      font-size: 18px;
-      font-weight: 300;
-      color: $green;
-    }
-  }
-  input[type="submit"] {
-    background-color: #b1b351;
-    color: #fff;
-    padding: 14px 25px;
-    font-size: 1em;
-    display: inline-block;
-    border-radius: 0;
-    font-weight: 300;
   }
   .form-actions {
     width: 50%;
-    float: right;
   }
 }
+
+/* Responsive menu */
+#superfish-1-select {
+  padding: 18px 12px;
+}
+
+.region-branding-inner {
+  width: 60%;
+  float: left;
+  img {
+    margin-top:20px;
+  }
+}
+

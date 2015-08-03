@@ -102,34 +102,19 @@ iframe {
   padding-left: 5%; }
 
 /* Webform */
-.node-webform {
-  font-family: "Open Sans", sans-serif; }
-  .node-webform #edit-submitted-titel {
-    border: none;
-    font-weight: 300;
-    font-size: 24px;
-    box-shadow: none;
-    float: left;
-    width: 100%;
-    padding-left: 0;
-    color: #000; }
-  .node-webform .webform-component-fieldset {
-    width: 50%;
-    float: left; }
-    .node-webform .webform-component-fieldset .fieldset-title {
-      font-size: 18px;
-      font-weight: 300;
-      color: #b1b351; }
-  .node-webform input[type="submit"] {
-    background-color: #b1b351;
-    color: #fff;
-    padding: 14px 25px;
-    font-size: 1em;
-    display: inline-block;
-    border-radius: 0;
-    font-weight: 300; }
-  .node-webform .form-actions {
-    width: 50%;
-    float: right; }
+.node-webform .webform-component-fieldset {
+  width: 50%; }
+.node-webform .form-actions {
+  width: 50%; }
+
+/* Responsive menu */
+#superfish-1-select {
+  padding: 18px 12px; }
+
+.region-branding-inner {
+  width: 60%;
+  float: left; }
+  .region-branding-inner img {
+    margin-top: 20px; }
 
 /*# sourceMappingURL=default-alpha-default-narrow.css.map */
