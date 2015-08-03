@@ -18,12 +18,12 @@ function content_pdf_field_default_field_instances() {
     'display' => array(
       'default' => array(
         'label' => 'hidden',
-        'module' => 'image_link_formatter',
+        'module' => 'image',
         'settings' => array(
-          'image_link' => 'file',
+          'image_link' => '',
           'image_style' => '',
         ),
-        'type' => 'image_link_formatter',
+        'type' => 'image',
         'weight' => 0,
       ),
     ),
