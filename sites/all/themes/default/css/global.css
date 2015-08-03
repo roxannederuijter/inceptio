@@ -521,7 +521,8 @@ iframe {
   float: left; }
   #block-views-greenagents-diensten-block .views-row {
     width: 100%;
-    float: left; }
+    float: left;
+    margin-bottom: 45px; }
     #block-views-greenagents-diensten-block .views-row .views-field-title {
       text-align: center;
       word-wrap: break-word; }
@@ -530,7 +531,8 @@ iframe {
 
 #block-views-pdf-block {
   width: 100%;
-  float: left; }
+  float: left;
+  margin-bottom: 45; }
 
 #region-postscript-second h2 {
   margin-bottom: 50px; }
