@@ -788,7 +788,10 @@ function default_permissions_user_default_permissions() {
   // Exported permission: 'download any document files'.
   $permissions['download any document files'] = array(
     'name' => 'download any document files',
-    'roles' => array(),
+    'roles' => array(
+      'anonymous user' => 'anonymous user',
+      'authenticated user' => 'authenticated user',
+    ),
     'module' => 'file_entity',
   );
 
@@ -816,7 +819,10 @@ function default_permissions_user_default_permissions() {
   // Exported permission: 'download own document files'.
   $permissions['download own document files'] = array(
     'name' => 'download own document files',
-    'roles' => array(),
+    'roles' => array(
+      'anonymous user' => 'anonymous user',
+      'authenticated user' => 'authenticated user',
+    ),
     'module' => 'file_entity',
   );
 
