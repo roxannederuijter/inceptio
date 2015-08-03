@@ -26,6 +26,7 @@ features[field_base][] = field_tekst
 features[field_base][] = field_tekst_lang
 features[field_base][] = field_tekst_rechts
 features[field_base][] = field_text
+features[field_base][] = field_titel
 features[field_base][] = field_twitter
 features[field_base][] = field_vacature
 features[taxonomy][] = bedrijf

@@ -18,12 +18,12 @@ function content_pdf_field_default_field_instances() {
     'display' => array(
       'default' => array(
         'label' => 'hidden',
-        'module' => 'image',
+        'module' => 'image_link_formatter',
         'settings' => array(
-          'image_link' => '',
+          'image_link' => 'file',
           'image_style' => '',
         ),
-        'type' => 'image',
+        'type' => 'image_link_formatter',
         'weight' => 0,
       ),
     ),
@@ -107,7 +107,7 @@ function content_pdf_field_default_field_instances() {
         'allowed_types' => array(
           'audio' => 0,
           'document' => 'document',
-          'image' => 'image',
+          'image' => 0,
           'video' => 0,
         ),
         'browser_plugins' => array(
@@ -118,6 +118,40 @@ function content_pdf_field_default_field_instances() {
       ),
       'type' => 'media_generic',
       'weight' => 3,
+    ),
+  );
+
+  // Exported field_instance: 'field_collection_item-field_pdf-field_titel'
+  $field_instances['field_collection_item-field_pdf-field_titel'] = array(
+    'bundle' => 'field_pdf',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'hidden',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 2,
+      ),
+    ),
+    'entity_type' => 'field_collection_item',
+    'field_name' => 'field_titel',
+    'label' => 'Titel',
+    'required' => 0,
+    'settings' => array(
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'size' => 60,
+      ),
+      'type' => 'text_textfield',
+      'weight' => 4,
     ),
   );
 
@@ -213,6 +247,7 @@ function content_pdf_field_default_field_instances() {
   t('Afbeelding');
   t('Body');
   t('Pdf');
+  t('Titel');
   t('pdf');
 
   return $field_instances;
