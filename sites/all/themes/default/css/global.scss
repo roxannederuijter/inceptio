@@ -444,6 +444,8 @@ iframe {
     float: left;
     .views-field-title {
       text-align:center;
+      word-wrap: break-word;
+
       a {
         color:#000;
       }
