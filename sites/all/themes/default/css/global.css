@@ -354,9 +354,9 @@ p {
 
 /* Portfolio pagina */
 .view-display-id-portfoliopagina .views-row, .view-display-id-portfoliopagina_greenagents .views-row {
-  padding: 15px;
+  padding: 5%;
   float: left;
-  width: 100%; }
+  width: 90%; }
   .view-display-id-portfoliopagina .views-row .views-field-title, .view-display-id-portfoliopagina_greenagents .views-row .views-field-title {
     width: 60%;
     float: left;
