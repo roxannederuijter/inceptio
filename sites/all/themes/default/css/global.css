@@ -511,6 +511,7 @@ iframe {
 #block-views-pdf-block img.file-icon {
   display: none; }
 #block-views-pdf-block .field-name-field-pdf-field {
+  word-wrap: break-word;
   text-align: center; }
 
 /* Diensten */
