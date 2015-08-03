@@ -17,6 +17,7 @@ dependencies[] = link
 dependencies[] = multiform
 dependencies[] = strongarm
 dependencies[] = uh_jquery_height
+dependencies[] = uh_jquery_menu
 dependencies[] = uh_views_responsive
 dependencies[] = views_accordion
 dependencies[] = views_nodes_split
