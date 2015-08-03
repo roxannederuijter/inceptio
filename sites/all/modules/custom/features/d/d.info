@@ -12,6 +12,7 @@ dependencies[] = ctools
 dependencies[] = field_bases
 dependencies[] = field_collection
 dependencies[] = field_ui
+dependencies[] = image_link_formatter
 dependencies[] = jquery_update
 dependencies[] = link
 dependencies[] = multiform
