@@ -49,11 +49,16 @@
   #block-views-greenagents-diensten-block .views-row {
     width: 20%;
     float: left;
-    margin-right: 5%; }
+    margin-right: 6%; }
     #block-views-greenagents-diensten-block .views-row .views-field-field-image {
       width: 85%;
       margin: 0 auto; }
   #block-views-greenagents-diensten-block .views-row-last {
     margin-right: 0; }
+
+#block-views-pdf-block {
+  width: 15%;
+  float: left;
+  margin-right: 5%; }
 
 /*# sourceMappingURL=default-alpha-default-narrow.css.map */

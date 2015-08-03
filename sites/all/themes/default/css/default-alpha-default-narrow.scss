@@ -38,7 +38,7 @@
   .views-row {
     width: 20%;
     float: left;
-    margin-right: 5%;
+    margin-right: 6%;
     .views-field-title {
     }
     .views-field-field-image {
@@ -49,4 +49,10 @@
   .views-row-last {
     margin-right:0;
   }
+}
+
+#block-views-pdf-block {
+  width:15%;
+  float:left;
+  margin-right:5%;
 }

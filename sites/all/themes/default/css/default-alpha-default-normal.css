@@ -11,4 +11,9 @@
     #block-views-greenagents-diensten-block .views-row .views-field-field-image {
       width: 100%; }
 
+#block-views-pdf-block {
+  width: 20%;
+  float: left;
+  margin-right: 0; }
+
 /*# sourceMappingURL=default-alpha-default-normal.css.map */
