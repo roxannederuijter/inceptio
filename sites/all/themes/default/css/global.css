@@ -333,7 +333,8 @@ p {
   background-position: 0 0;
   background-image: url(img/square.png) !important;
   width: 23px;
-  height: 23px; }
+  height: 23px;
+  background-size: 23px; }
 
 .views-field-field-vraag, .views-field-field-title, .views-field-title {
   border: none;
