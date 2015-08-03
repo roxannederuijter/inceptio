@@ -70,3 +70,45 @@ iframe {
 }
 
 
+/* Vacatures */
+.block-views-vacatures-block-1 {
+  .views-row {
+    width:50%;
+    float:left;
+    color:#fff;
+    box-sizing:border-box;
+    margin-bottom:40px;
+    .views-field-field-image {
+      float:left;
+    }
+    .views-field-title {
+      font-weight: 300;
+      font-size:24px;
+      color:$green;
+    }
+    li {
+      margin-left:20px;
+    }
+    .views-field-field-vacature {
+      a {
+        background-color: $green;
+        color: #fff;
+        padding: 14px 25px;
+        font-size: 1em;
+        display: inline-block;
+      }
+    }
+    .views-field-field-image {
+      width:100%;
+      img {
+        float:left;
+      }
+    }
+  }
+  .views-row-odd {
+    padding-right: 5%;
+  }
+  .views-row-even {
+    padding-left:5%;
+  }
+}

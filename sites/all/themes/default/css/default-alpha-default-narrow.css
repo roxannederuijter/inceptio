@@ -71,4 +71,34 @@ iframe {
   width: 100%;
   height: 450px; }
 
+/* Vacatures */
+.block-views-vacatures-block-1 .views-row {
+  width: 50%;
+  float: left;
+  color: #fff;
+  box-sizing: border-box;
+  margin-bottom: 40px; }
+  .block-views-vacatures-block-1 .views-row .views-field-field-image {
+    float: left; }
+  .block-views-vacatures-block-1 .views-row .views-field-title {
+    font-weight: 300;
+    font-size: 24px;
+    color: #b1b351; }
+  .block-views-vacatures-block-1 .views-row li {
+    margin-left: 20px; }
+  .block-views-vacatures-block-1 .views-row .views-field-field-vacature a {
+    background-color: #b1b351;
+    color: #fff;
+    padding: 14px 25px;
+    font-size: 1em;
+    display: inline-block; }
+  .block-views-vacatures-block-1 .views-row .views-field-field-image {
+    width: 100%; }
+    .block-views-vacatures-block-1 .views-row .views-field-field-image img {
+      float: left; }
+.block-views-vacatures-block-1 .views-row-odd {
+  padding-right: 5%; }
+.block-views-vacatures-block-1 .views-row-even {
+  padding-left: 5%; }
+
 /*# sourceMappingURL=default-alpha-default-narrow.css.map */
