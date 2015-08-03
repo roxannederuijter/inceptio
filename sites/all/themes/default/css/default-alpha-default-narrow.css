@@ -50,6 +50,7 @@
     width: 25%;
     float: left; }
     #block-views-greenagents-diensten-block .views-row .views-field-field-image {
-      width: 60%; }
+      width: 60%;
+      margin: 0 auto; }
 
 /*# sourceMappingURL=default-alpha-default-narrow.css.map */
