@@ -507,7 +507,8 @@ iframe {
 #block-views-pdf-block span.file-size {
   display: none; }
 #block-views-pdf-block .field-name-field-titel {
-  text-align: center; }
+  text-align: center;
+  word-wrap: break-word; }
 #block-views-pdf-block img.file-icon {
   display: none; }
 #block-views-pdf-block .field-name-field-pdf-field {
