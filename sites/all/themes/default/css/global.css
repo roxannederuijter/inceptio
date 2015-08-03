@@ -571,5 +571,7 @@ iframe {
 .region-branding-inner {
   width: 60%;
   float: left; }
+  .region-branding-inner img {
+    margin-top: 50px; }
 
 /*# sourceMappingURL=global.css.map */
