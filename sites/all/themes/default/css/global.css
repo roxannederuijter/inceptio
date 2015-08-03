@@ -422,7 +422,7 @@ p {
     padding-left: 0;
     color: #000; }
   .node-webform .webform-component-fieldset {
-    width: 50%;
+    width: 100%;
     float: left; }
     .node-webform .webform-component-fieldset .fieldset-title {
       font-size: 18px;
@@ -437,7 +437,7 @@ p {
     border-radius: 0;
     font-weight: 300; }
   .node-webform .form-actions {
-    width: 50%;
+    width: 100%;
     float: right; }
 
 /* Partners */
