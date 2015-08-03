@@ -1,5 +1,13 @@
 /* This file will hold styles that are loaded using the same media query as the normal grid. */
 /* If you are using the default media queries provided by Omega, these styles will also
  *  apply to the widescreen layout unless they are overridden by the widescreen styles. */
+/* Diensten */
+#block-views-greenagents-diensten-block {
+  width: 80% !important; }
+  #block-views-greenagents-diensten-block .views-row {
+    width: 25%;
+    float: left; }
+    #block-views-greenagents-diensten-block .views-row .views-field-field-image {
+      width: 100%; }
 
 /*# sourceMappingURL=default-alpha-default-normal.css.map */

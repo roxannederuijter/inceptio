@@ -2,3 +2,17 @@
 /* If you are using the default media queries provided by Omega, these styles will also
  *  apply to the widescreen layout unless they are overridden by the widescreen styles. */
 @import 'variables';
+
+/* Diensten */
+#block-views-greenagents-diensten-block {
+  width:80%!important;
+  .views-row {
+    width: 25%;
+    float: left;
+    .views-field-title {
+    }
+    .views-field-field-image {
+      width:100%;
+    }
+  }
+}

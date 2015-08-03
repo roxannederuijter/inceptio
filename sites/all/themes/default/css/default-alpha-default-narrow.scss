@@ -31,3 +31,17 @@
     margin-right: 2.5%;
   }
 }
+
+/* Diensten */
+#block-views-greenagents-diensten-block {
+  width:80%!important;
+  .views-row {
+    width: 25%;
+    float: left;
+    .views-field-title {
+    }
+    .views-field-field-image {
+      width:60%;
+    }
+  }
+}

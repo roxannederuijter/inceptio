@@ -43,4 +43,13 @@
   .paragraphs-item-2-kolommen-tekst-afbeelding-rech .ds-2col > .group-left {
     margin-right: 2.5%; }
 
+/* Diensten */
+#block-views-greenagents-diensten-block {
+  width: 80% !important; }
+  #block-views-greenagents-diensten-block .views-row {
+    width: 25%;
+    float: left; }
+    #block-views-greenagents-diensten-block .views-row .views-field-field-image {
+      width: 60%; }
+
 /*# sourceMappingURL=default-alpha-default-narrow.css.map */
