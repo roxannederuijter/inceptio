@@ -272,21 +272,12 @@ p {
 
 .block-views-portfolio-block-1 .views-row {
   float: left;
-  width: 49%;
+  width: 30%;
   margin: 0;
   margin-bottom: 2%;
   padding: 0;
   margin-right: 2%;
   position: relative; }
-
-.block-views-portfolio-block-1 .views-row {
-  width: 23.5%; }
-
-.block-views-portfolio-block-1 .views-row-2, .block-views-portfolio-block-1 .views-row-6, .block-views-portfolio-block-1 .views-row-10 {
-  margin-right: 0; }
-
-.block-views-portfolio-block-1 .views-row-1, .block-views-portfolio-block-1 .views-row-2 {
-  width: 49%; }
 
 #zone-postscript-wrapper {
   padding: 50px 0; }
