@@ -615,7 +615,8 @@ iframe {
 
 .block-views-blog-block-1 {
   border-bottom: 1px solid;
-  margin-bottom: 20px; }
+  margin-bottom: 25px;
+  padding-bottom: 30px; }
   .block-views-blog-block-1 .views-row-odd {
     padding-right: 2.5%; }
   .block-views-blog-block-1 .views-row {
