@@ -33,7 +33,7 @@ function view_portfolio_views_default_views() {
   $handler->display->display_options['pager']['options']['offset'] = '0';
   $handler->display->display_options['style_plugin'] = 'default';
   $handler->display->display_options['row_plugin'] = 'node_split';
-  $handler->display->display_options['row_options']['view_mode'] = 'project_small';
+  $handler->display->display_options['row_options']['view_mode'] = 'project_large';
   $handler->display->display_options['row_options']['first_settings'] = array(
     'first_x_value' => '2',
     'view_mode' => 'project_large',
