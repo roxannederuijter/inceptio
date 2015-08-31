@@ -366,7 +366,11 @@ p {
   background-color: #353535; }
 
 .view-footer {
-  text-align: center; }
+  text-align: center;
+  width: 100%;
+  float: left;
+  margin-bottom: 100px;
+  margin-top: 43px; }
 
 /* Vacatures */
 .block-views-vacatures-block-1 .views-row {
@@ -533,9 +537,6 @@ iframe {
   margin-bottom: 45px; }
   #block-views-pdf-block .field-name-field-pdf-field {
     font-size: 14px; }
-
-#region-postscript-second h2 {
-  margin-bottom: 50px; }
 
 /* Sticky menu */
 .admin-menu .is-sticky .zone-branding-wrapper {

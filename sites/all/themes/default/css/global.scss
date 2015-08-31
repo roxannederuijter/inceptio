@@ -232,8 +232,13 @@ p {
 }
 
 .view-footer {
-  text-align:center;
+  text-align: center;
+  width: 100%;
+  float: left;
+  margin-bottom: 100px;
+  margin-top: 43px;
 }
+
 
 /* Vacatures */
 .block-views-vacatures-block-1 {
@@ -456,12 +461,6 @@ iframe {
     font-size:14px;
   }
 
-}
-
-#region-postscript-second {
-  h2 {
-    margin-bottom:50px;
-  }
 }
 
 /* Sticky menu */
