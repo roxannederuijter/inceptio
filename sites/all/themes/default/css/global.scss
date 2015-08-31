@@ -572,5 +572,9 @@ iframe {
 .context-greenagents {
   #zone-postscript-wrapper {
     background-color:$green;
+    padding:10px 0;
+    #zone-postscript {
+      padding-bottom:0;
+    }
   }
 }

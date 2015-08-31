@@ -609,6 +609,9 @@ iframe {
 
 /* GREENAGENTS */
 .context-greenagents #zone-postscript-wrapper {
-  background-color: #b1b351; }
+  background-color: #b1b351;
+  padding: 10px 0; }
+  .context-greenagents #zone-postscript-wrapper #zone-postscript {
+    padding-bottom: 0; }
 
 /*# sourceMappingURL=global.css.map */
