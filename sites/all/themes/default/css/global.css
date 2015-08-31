@@ -518,6 +518,8 @@ iframe {
   word-wrap: break-word;
   text-align: center;
   font-size: 14px; }
+  #block-views-pdf-block .field-name-field-pdf-field a {
+    color: #000; }
 
 /* Diensten */
 #block-views-greenagents-diensten-block {
