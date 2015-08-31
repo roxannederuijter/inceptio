@@ -493,7 +493,7 @@ function default_block_settings_default_fe_block_settings() {
         'region' => 'content',
         'status' => 1,
         'theme' => 'default',
-        'weight' => 0,
+        'weight' => -18,
       ),
       'seven' => array(
         'region' => 'content',
@@ -747,14 +747,14 @@ greenagents*',
     'delta' => 'blog-block',
     'module' => 'views',
     'node_types' => array(),
-    'pages' => '',
+    'pages' => 'greenagents/blog',
     'roles' => array(),
     'themes' => array(
       'default' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'content',
+        'status' => 1,
         'theme' => 'default',
-        'weight' => 0,
+        'weight' => -17,
       ),
       'seven' => array(
         'region' => '',
@@ -763,8 +763,8 @@ greenagents*',
         'weight' => 0,
       ),
     ),
-    'title' => '',
-    'visibility' => 0,
+    'title' => '<none>',
+    'visibility' => 1,
   );
 
   $export['views-greenagents_diensten-block'] = array(
