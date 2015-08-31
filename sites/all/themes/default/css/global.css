@@ -574,6 +574,8 @@ iframe {
   .region-branding-inner img {
     margin-top: 20px; }
 
+.view-id-blog .views-row {
+  margin-bottom: 40pxl; }
 .view-id-blog .group-left {
   width: 25% !important; }
   .view-id-blog .group-left .field-name-field-image img {
