@@ -74,10 +74,10 @@ function default_block_settings_default_fe_block_settings() {
     'roles' => array(),
     'themes' => array(
       'default' => array(
-        'region' => 'postscript_second',
+        'region' => 'postscript_first',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -17,
+        'weight' => -15,
       ),
       'seven' => array(
         'region' => '',
@@ -777,10 +777,10 @@ greenagents*',
     'roles' => array(),
     'themes' => array(
       'default' => array(
-        'region' => 'postscript_second',
+        'region' => 'postscript_first',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -15,
+        'weight' => -13,
       ),
       'seven' => array(
         'region' => '',
@@ -806,7 +806,7 @@ greenagents*',
         'region' => 'postscript_first',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -16,
+        'weight' => -18,
       ),
       'seven' => array(
         'region' => '',
@@ -829,10 +829,10 @@ greenagents*',
     'roles' => array(),
     'themes' => array(
       'default' => array(
-        'region' => 'postscript_second',
+        'region' => 'postscript_first',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -16,
+        'weight' => -14,
       ),
       'seven' => array(
         'region' => '',
@@ -858,7 +858,7 @@ greenagents*',
         'region' => 'postscript_first',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -14,
+        'weight' => -16,
       ),
       'seven' => array(
         'region' => '',
@@ -881,10 +881,10 @@ greenagents*',
     'roles' => array(),
     'themes' => array(
       'default' => array(
-        'region' => 'postscript_first',
+        'region' => 'postscript_second',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -13,
+        'weight' => -18,
       ),
       'seven' => array(
         'region' => '',
@@ -910,7 +910,7 @@ greenagents*',
         'region' => 'postscript_first',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -15,
+        'weight' => -17,
       ),
       'seven' => array(
         'region' => '',
