@@ -433,6 +433,7 @@ iframe {
   .field-name-field-pdf-field {
     word-wrap: break-word;
     text-align:center;
+    font-size:14px;
   }
 }
 
@@ -455,12 +456,18 @@ iframe {
       }
     }
   }
+  #zone-postscript {
+    padding-bottom: 0px;
+  }
 }
 
 #block-views-pdf-block {
   width:100%;
   float:left;
   margin-bottom:45px;
+  .field-name-field-pdf-field {
+    font-size:14px;
+  }
 
 }
 

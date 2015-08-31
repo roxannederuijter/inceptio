@@ -17,5 +17,7 @@
   margin-right: 0; }
   #block-views-pdf-block .field-name-field-image {
     width: 100%; }
+    #block-views-pdf-block .field-name-field-image img {
+      width: 20; }
 
 /*# sourceMappingURL=default-alpha-default-normal.css.map */

@@ -515,7 +515,8 @@ iframe {
   display: none; }
 #block-views-pdf-block .field-name-field-pdf-field {
   word-wrap: break-word;
-  text-align: center; }
+  text-align: center;
+  font-size: 14px; }
 
 /* Diensten */
 #block-views-greenagents-diensten-block {
@@ -531,11 +532,15 @@ iframe {
       font-size: 14px; }
       #block-views-greenagents-diensten-block .views-row .views-field-title a {
         color: #000; }
+  #block-views-greenagents-diensten-block #zone-postscript {
+    padding-bottom: 0px; }
 
 #block-views-pdf-block {
   width: 100%;
   float: left;
   margin-bottom: 45px; }
+  #block-views-pdf-block .field-name-field-pdf-field {
+    font-size: 14px; }
 
 #region-postscript-second h2 {
   margin-bottom: 50px; }
