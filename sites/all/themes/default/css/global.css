@@ -582,12 +582,18 @@ iframe {
 .view-id-blog .group-right .field-name-title h2 {
   text-align: left;
   font-size: 24px;
-  width: 100%; }
+  width: 100%;
+  margin: 0; }
 .view-id-blog .group-right .field-name-title .field-name-field-date-1 {
   width: 100%;
   font-size: 15px; }
 .view-id-blog .group-right .field-name-title .field-name-field-body {
   width: 100%;
   font-size: 14px; }
+.view-id-blog .group-right .field-name-title .field-name-node-link a {
+  background-color: #b1b351;
+  color: #fff;
+  padding: 3px;
+  font-size: 13px; }
 
 /*# sourceMappingURL=global.css.map */
