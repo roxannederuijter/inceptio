@@ -601,10 +601,18 @@ iframe {
 
 /* GREENAGENTS */
 .context-greenagents #zone-postscript-wrapper {
-  background-color: #b1b351;
+  background-color: #7d9434;
   padding: 10px 0; }
   .context-greenagents #zone-postscript-wrapper #zone-postscript {
     padding-bottom: 0; }
+.context-greenagents #zone-footer-wrapper {
+  background-color: #7d9434; }
+.context-greenagents a.button {
+  background-color: #7d9434; }
+.context-greenagents .block-superfish-1 ul li a.active {
+  border-bottom: 3px solid #7d9434; }
+.context-greenagents .block-superfish-1 ul li a:hover {
+  color: #7d9434; }
 
 .block-views-blog-block-1 .views-row-odd {
   padding-right: 2.5%; }
@@ -636,7 +644,7 @@ iframe {
     color: #fff;
     padding: 3px;
     font-size: 13px;
-    background-color: #b1b351; }
+    background-color: #7d9434; }
 .block-views-blog-block-1 #region-postscript-second h2 {
   margin-bottom: 0;
   color: #000; }

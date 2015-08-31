@@ -556,11 +556,23 @@ iframe {
 /* GREENAGENTS */
 .context-greenagents {
   #zone-postscript-wrapper {
-    background-color:$green;
+    background-color:$greenagents;
     padding:10px 0;
     #zone-postscript {
       padding-bottom:0;
     }
+  }
+  #zone-footer-wrapper {
+    background-color:$greenagents;
+  }
+  a.button {
+    background-color:$greenagents;
+  }
+  .block-superfish-1 ul li a.active {
+    border-bottom:3px solid $greenagents;
+  }
+  .block-superfish-1 ul li a:hover {
+    color:$greenagents;
   }
 }
 
@@ -610,7 +622,7 @@ iframe {
           color: #fff;
           padding: 3px;
           font-size: 13px;
-          background-color: $green;
+          background-color: $greenagents;
         }
       }
     }
