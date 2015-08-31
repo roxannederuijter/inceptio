@@ -528,25 +528,27 @@ iframe {
   .group-right {
     .field-name-title {
       h2 {
-        text-align:left;
-        font-size:24px;
-        width:100%;
-        margin:0;
+        text-align: left;
+        font-size: 24px;
+        width: 100%;
+        margin: 0;
       }
-      .field-name-field-date-1 {
-        width:100%;
-        font-size:15px;
+    }
+    .field-name-field-date-1 {
+      width:100%;
+      font-size:15px;
+    }
+    .field-name-field-body {
+      width:100%;
+      font-size:14px;
+    }
+    .field-name-node-link {
+      a {
+        color: #fff;
+        padding: 3px;
+        font-size: 13px;
+        background-color: $green;
       }
-      .field-name-field-body {
-        width:100%;
-        font-size:14px;
-      }
-        a {
-          color: #fff;
-          padding: 3px;
-          font-size: 13px;
-          background-color: $green;
-        }
     }
   }
 }
