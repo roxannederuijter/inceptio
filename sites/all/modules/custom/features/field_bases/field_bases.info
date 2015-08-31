@@ -18,6 +18,7 @@ features[field_base][] = field_afbeelding_rechts
 features[field_base][] = field_banner
 features[field_base][] = field_bedrijf
 features[field_base][] = field_body
+features[field_base][] = field_datum
 features[field_base][] = field_file_image_alt_text
 features[field_base][] = field_file_image_title_text
 features[field_base][] = field_image
