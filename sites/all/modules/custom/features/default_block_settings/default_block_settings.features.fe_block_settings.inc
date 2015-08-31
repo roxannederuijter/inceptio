@@ -741,6 +741,32 @@ greenagents*',
     'visibility' => 0,
   );
 
+  $export['views-blog-block'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'delta' => 'blog-block',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'default',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
   $export['views-greenagents_diensten-block'] = array(
     'cache' => -1,
     'custom' => 0,
