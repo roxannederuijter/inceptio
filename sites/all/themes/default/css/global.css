@@ -527,7 +527,8 @@ iframe {
     margin-bottom: 45px; }
     #block-views-greenagents-diensten-block .views-row .views-field-title {
       text-align: center;
-      word-wrap: break-word; }
+      word-wrap: break-word;
+      font-size: 14px; }
       #block-views-greenagents-diensten-block .views-row .views-field-title a {
         color: #000; }
 
@@ -596,6 +597,10 @@ iframe {
   color: #fff;
   padding: 3px;
   font-size: 13px;
+  background-color: #b1b351; }
+
+/* GREENAGENTS */
+.context-greenagents #zone-postscript-wrapper {
   background-color: #b1b351; }
 
 /*# sourceMappingURL=global.css.map */

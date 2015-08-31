@@ -8,8 +8,8 @@
     width: 25%;
     float: left;
     margin-right: 0; }
-    #block-views-greenagents-diensten-block .views-row .views-field-field-image {
-      width: 100%; }
+    #block-views-greenagents-diensten-block .views-row .views-field-field-image img {
+      width: 20%; }
 
 #block-views-pdf-block {
   width: 20%;

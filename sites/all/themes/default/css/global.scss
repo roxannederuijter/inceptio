@@ -449,7 +449,7 @@ iframe {
     .views-field-title {
       text-align:center;
       word-wrap: break-word;
-
+      font-size:14px;
       a {
         color:#000;
       }
@@ -554,5 +554,12 @@ iframe {
         background-color: $green;
       }
     }
+  }
+}
+
+/* GREENAGENTS */
+.context-greenagents {
+  #zone-postscript-wrapper {
+    background-color:$green;
   }
 }
