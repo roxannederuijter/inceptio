@@ -22,7 +22,7 @@ function content_blog_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 0,
+        'weight' => 2,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -52,8 +52,8 @@ function content_blog_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-greenagent_blog-field_datum'
-  $field_instances['node-greenagent_blog-field_datum'] = array(
+  // Exported field_instance: 'node-greenagent_blog-field_date_1'
+  $field_instances['node-greenagent_blog-field_date_1'] = array(
     'bundle' => 'greenagent_blog',
     'deleted' => 0,
     'description' => '',
@@ -70,7 +70,7 @@ function content_blog_field_default_field_instances() {
           'show_repeat_rule' => 'show',
         ),
         'type' => 'date_default',
-        'weight' => 2,
+        'weight' => 0,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -80,7 +80,7 @@ function content_blog_field_default_field_instances() {
       ),
     ),
     'entity_type' => 'node',
-    'field_name' => 'field_datum',
+    'field_name' => 'field_date_1',
     'label' => 'Datum',
     'required' => 0,
     'settings' => array(

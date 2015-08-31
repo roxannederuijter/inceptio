@@ -52,12 +52,12 @@ function views_blog_views_default_views() {
   $handler->display->display_options['fields']['title']['alter']['word_boundary'] = FALSE;
   $handler->display->display_options['fields']['title']['alter']['ellipsis'] = FALSE;
   /* Field: Content: Datum */
-  $handler->display->display_options['fields']['field_datum']['id'] = 'field_datum';
-  $handler->display->display_options['fields']['field_datum']['table'] = 'field_data_field_datum';
-  $handler->display->display_options['fields']['field_datum']['field'] = 'field_datum';
-  $handler->display->display_options['fields']['field_datum']['label'] = '';
-  $handler->display->display_options['fields']['field_datum']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['field_datum']['settings'] = array(
+  $handler->display->display_options['fields']['field_date_1']['id'] = 'field_date_1';
+  $handler->display->display_options['fields']['field_date_1']['table'] = 'field_data_field_date_1';
+  $handler->display->display_options['fields']['field_date_1']['field'] = 'field_date_1';
+  $handler->display->display_options['fields']['field_date_1']['label'] = '';
+  $handler->display->display_options['fields']['field_date_1']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_date_1']['settings'] = array(
     'format_type' => 'long',
     'fromto' => 'both',
     'multiple_number' => '',
