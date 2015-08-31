@@ -116,7 +116,7 @@ function views_blog_views_default_views() {
   $handler->display->display_options['footer']['area_text_custom']['id'] = 'area_text_custom';
   $handler->display->display_options['footer']['area_text_custom']['table'] = 'views';
   $handler->display->display_options['footer']['area_text_custom']['field'] = 'area_text_custom';
-  $handler->display->display_options['footer']['area_text_custom']['content'] = '<a class="button" href="/greenagents/portfolio">Meer blogs</a>';
+  $handler->display->display_options['footer']['area_text_custom']['content'] = '<a class="button" href="/greenagents/blogs">Meer blogs</a>';
   $translatables['blog'] = array(
     t('Master'),
     t('Blog'),
@@ -130,7 +130,7 @@ function views_blog_views_default_views() {
     t('Block'),
     t('blogblock homepage'),
     t('Meer blogs'),
-    t('<a class="button" href="/greenagents/portfolio">Meer blogs</a>'),
+    t('<a class="button" href="/greenagents/blogs">Meer blogs</a>'),
   );
   $export['blog'] = $view;
 
