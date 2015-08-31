@@ -590,7 +590,7 @@ iframe {
 .view-id-blog .group-right .field-name-title .field-name-field-body {
   width: 100%;
   font-size: 14px; }
-.view-id-blog .group-right .field-name-title .field-name-node-link a {
+.view-id-blog .group-right .field-name-title a {
   color: #fff;
   padding: 3px;
   font-size: 13px;
