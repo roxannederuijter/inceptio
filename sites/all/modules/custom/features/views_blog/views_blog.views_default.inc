@@ -29,7 +29,7 @@ function views_blog_views_default_views() {
   $handler->display->display_options['query']['type'] = 'views_query';
   $handler->display->display_options['exposed_form']['type'] = 'basic';
   $handler->display->display_options['pager']['type'] = 'some';
-  $handler->display->display_options['pager']['options']['items_per_page'] = '10';
+  $handler->display->display_options['pager']['options']['items_per_page'] = '2';
   $handler->display->display_options['pager']['options']['offset'] = '0';
   $handler->display->display_options['style_plugin'] = 'default';
   $handler->display->display_options['row_plugin'] = 'node';
@@ -101,6 +101,16 @@ function views_blog_views_default_views() {
   /* Display: Block */
   $handler = $view->new_display('block', 'Block', 'block');
   $handler->display->display_options['block_description'] = 'Blog';
+
+  /* Display: blogblock homepage */
+  $handler = $view->new_display('block', 'blogblock homepage', 'block_1');
+  $handler->display->display_options['defaults']['use_more'] = FALSE;
+  $handler->display->display_options['use_more'] = TRUE;
+  $handler->display->display_options['defaults']['use_more_always'] = FALSE;
+  $handler->display->display_options['defaults']['use_more_always'] = FALSE;
+  $handler->display->display_options['use_more_always'] = FALSE;
+  $handler->display->display_options['defaults']['use_more_text'] = FALSE;
+  $handler->display->display_options['use_more_text'] = 'Meer blogs';
   $translatables['blog'] = array(
     t('Master'),
     t('Blog'),
@@ -112,6 +122,8 @@ function views_blog_views_default_views() {
     t('Desc'),
     t('Lees meer'),
     t('Block'),
+    t('blogblock homepage'),
+    t('Meer blogs'),
   );
   $export['blog'] = $view;
 

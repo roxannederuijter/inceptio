@@ -767,6 +767,32 @@ greenagents*',
     'visibility' => 1,
   );
 
+  $export['views-blog-block_1'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'delta' => 'blog-block_1',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => 'greenagents',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => 'postscript_second',
+        'status' => 1,
+        'theme' => 'default',
+        'weight' => -18,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => 'Blogs',
+    'visibility' => 1,
+  );
+
   $export['views-greenagents_diensten-block'] = array(
     'cache' => -1,
     'custom' => 0,
@@ -884,7 +910,7 @@ greenagents*',
         'region' => 'postscript_second',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -18,
+        'weight' => -17,
       ),
       'seven' => array(
         'region' => '',
