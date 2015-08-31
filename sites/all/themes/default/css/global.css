@@ -614,4 +614,34 @@ iframe {
   .context-greenagents #zone-postscript-wrapper #zone-postscript {
     padding-bottom: 0; }
 
+.block-views-blog-block-1 .view-id-blog .views-row {
+  margin-bottom: 40px; }
+.block-views-blog-block-1 .view-id-blog .group-left {
+  width: 100% !important; }
+  .block-views-blog-block-1 .view-id-blog .group-left .field-name-field-image img {
+    float: left;
+    width: 50%; }
+.block-views-blog-block-1 .view-id-blog .group-right {
+  width: 100% !important; }
+  .block-views-blog-block-1 .view-id-blog .group-right .field-name-title h2 {
+    text-align: left;
+    font-size: 24px;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 0 !important; }
+  .block-views-blog-block-1 .view-id-blog .group-right .field-name-field-date-1 {
+    width: 100%;
+    font-size: 15px; }
+  .block-views-blog-block-1 .view-id-blog .group-right .field-name-field-body {
+    width: 100%;
+    font-size: 14px; }
+  .block-views-blog-block-1 .view-id-blog .group-right .field-name-node-link a {
+    color: #fff;
+    padding: 3px;
+    font-size: 13px;
+    background-color: #b1b351; }
+.block-views-blog-block-1 #region-postscript-second h2 {
+  margin-bottom: 0;
+  color: #000; }
+
 /*# sourceMappingURL=global.css.map */
