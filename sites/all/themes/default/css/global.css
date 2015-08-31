@@ -575,7 +575,7 @@ iframe {
     margin-top: 20px; }
 
 .view-id-blog .group-left {
-  width: 25%; }
+  width: 25% !important; }
   .view-id-blog .group-left .field-name-field-image img {
     float: left;
     width: 90%; }
@@ -588,6 +588,6 @@ iframe {
   font-size: 15px; }
 .view-id-blog .group-right .field-name-title .field-name-field-body {
   width: 100%;
-  font-size: 13; }
+  font-size: 14px; }
 
 /*# sourceMappingURL=global.css.map */
