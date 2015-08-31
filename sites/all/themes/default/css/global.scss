@@ -514,3 +514,32 @@ iframe {
     margin-top:20px;
   }
 }
+
+.view-id-blog {
+  .group-left {
+    width:25%;
+    .field-name-field-image {
+      img {
+        float:left;
+        width:90%;
+      }
+    }
+  }
+  .group-right {
+    .field-name-title {
+      h2 {
+        text-align:left;
+        font-size:24px;
+        width:100%;
+      }
+      .field-name-field-date-1 {
+        width:100%;
+        font-size:15px;
+      }
+      .field-name-field-body {
+        width:100%;
+        font-size:14px;
+      }
+    }
+  }
+}
