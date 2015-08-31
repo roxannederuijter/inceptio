@@ -27,6 +27,46 @@ function content_ds_settings_ds_field_settings_info() {
 
   $ds_fieldsetting = new stdClass();
   $ds_fieldsetting->api_version = 1;
+  $ds_fieldsetting->id = 'node|greenagent_blog|default';
+  $ds_fieldsetting->entity_type = 'node';
+  $ds_fieldsetting->bundle = 'greenagent_blog';
+  $ds_fieldsetting->view_mode = 'default';
+  $ds_fieldsetting->settings = array(
+    'title' => array(
+      'weight' => '1',
+      'label' => 'hidden',
+      'format' => 'default',
+    ),
+  );
+  $export['node|greenagent_blog|default'] = $ds_fieldsetting;
+
+  $ds_fieldsetting = new stdClass();
+  $ds_fieldsetting->api_version = 1;
+  $ds_fieldsetting->id = 'node|greenagent_blog|teaser';
+  $ds_fieldsetting->entity_type = 'node';
+  $ds_fieldsetting->bundle = 'greenagent_blog';
+  $ds_fieldsetting->view_mode = 'teaser';
+  $ds_fieldsetting->settings = array(
+    'title' => array(
+      'weight' => '1',
+      'label' => 'hidden',
+      'format' => 'default',
+    ),
+    'node_link' => array(
+      'weight' => '4',
+      'label' => 'hidden',
+      'format' => 'default',
+      'formatter_settings' => array(
+        'link text' => 'Lees meer',
+        'wrapper' => '',
+        'class' => '',
+      ),
+    ),
+  );
+  $export['node|greenagent_blog|teaser'] = $ds_fieldsetting;
+
+  $ds_fieldsetting = new stdClass();
+  $ds_fieldsetting->api_version = 1;
   $ds_fieldsetting->id = 'node|page|default';
   $ds_fieldsetting->entity_type = 'node';
   $ds_fieldsetting->bundle = 'page';
@@ -108,6 +148,80 @@ function content_ds_settings_ds_layout_settings_info() {
     'layout_link_custom' => '',
   );
   $export['node|diensten|default'] = $ds_layout;
+
+  $ds_layout = new stdClass();
+  $ds_layout->api_version = 1;
+  $ds_layout->id = 'node|greenagent_blog|default';
+  $ds_layout->entity_type = 'node';
+  $ds_layout->bundle = 'greenagent_blog';
+  $ds_layout->view_mode = 'default';
+  $ds_layout->layout = 'ds_1col';
+  $ds_layout->settings = array(
+    'regions' => array(
+      'ds_content' => array(
+        0 => 'field_image',
+        1 => 'title',
+        2 => 'field_date_1',
+        3 => 'field_body',
+      ),
+    ),
+    'fields' => array(
+      'field_image' => 'ds_content',
+      'title' => 'ds_content',
+      'field_date_1' => 'ds_content',
+      'field_body' => 'ds_content',
+    ),
+    'classes' => array(),
+    'wrappers' => array(
+      'ds_content' => 'div',
+    ),
+    'layout_wrapper' => 'div',
+    'layout_attributes' => '',
+    'layout_attributes_merge' => 1,
+    'layout_link_attribute' => '',
+    'layout_link_custom' => '',
+  );
+  $export['node|greenagent_blog|default'] = $ds_layout;
+
+  $ds_layout = new stdClass();
+  $ds_layout->api_version = 1;
+  $ds_layout->id = 'node|greenagent_blog|teaser';
+  $ds_layout->entity_type = 'node';
+  $ds_layout->bundle = 'greenagent_blog';
+  $ds_layout->view_mode = 'teaser';
+  $ds_layout->layout = 'ds_2col';
+  $ds_layout->settings = array(
+    'regions' => array(
+      'left' => array(
+        0 => 'field_image',
+      ),
+      'right' => array(
+        1 => 'title',
+        2 => 'field_date_1',
+        3 => 'field_body',
+        4 => 'node_link',
+      ),
+    ),
+    'fields' => array(
+      'field_image' => 'left',
+      'title' => 'right',
+      'field_date_1' => 'right',
+      'field_body' => 'right',
+      'node_link' => 'right',
+    ),
+    'classes' => array(),
+    'wrappers' => array(
+      'left' => 'div',
+      'right' => 'div',
+    ),
+    'layout_wrapper' => 'div',
+    'layout_attributes' => '',
+    'layout_attributes_merge' => 1,
+    'layout_link_attribute' => '',
+    'layout_link_custom' => '',
+    'layout_disable_css' => 0,
+  );
+  $export['node|greenagent_blog|teaser'] = $ds_layout;
 
   $ds_layout = new stdClass();
   $ds_layout->api_version = 1;
