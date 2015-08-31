@@ -510,7 +510,8 @@ iframe {
   display: none; }
 #block-views-pdf-block .field-name-field-titel {
   text-align: center;
-  word-wrap: break-word; }
+  word-wrap: break-word;
+  font-size: 14px; }
 #block-views-pdf-block img.file-icon {
   display: none; }
 #block-views-pdf-block .field-name-field-pdf-field {
