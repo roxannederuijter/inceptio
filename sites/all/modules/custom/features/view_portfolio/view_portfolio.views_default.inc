@@ -84,11 +84,6 @@ function view_portfolio_views_default_views() {
   /* Display: Block */
   $handler = $view->new_display('block', 'Block', 'block');
   $handler->display->display_options['defaults']['header'] = FALSE;
-  /* Header: Global: Unfiltered text */
-  $handler->display->display_options['header']['area_text_custom']['id'] = 'area_text_custom';
-  $handler->display->display_options['header']['area_text_custom']['table'] = 'views';
-  $handler->display->display_options['header']['area_text_custom']['field'] = 'area_text_custom';
-  $handler->display->display_options['header']['area_text_custom']['content'] = '<h2>Portfolio</h2>';
   $handler->display->display_options['defaults']['filter_groups'] = FALSE;
   $handler->display->display_options['defaults']['filters'] = FALSE;
   /* Filter criterion: Content: Published */
@@ -297,7 +292,6 @@ function view_portfolio_views_default_views() {
     t('<a class="button" href="/portfolio">Meer portfolio\'s</a>'),
     t('Afbeelding'),
     t('Block'),
-    t('<h2>Portfolio</h2>'),
     t('Pagina'),
     t('Block greenagents'),
     t('<a class="button" href="/greenagents/portfolio">Meer portfolio\'s</a>'),
