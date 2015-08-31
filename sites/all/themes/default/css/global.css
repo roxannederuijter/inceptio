@@ -307,7 +307,8 @@ p {
     float: left;
     padding-bottom: 0;
     width: 100%;
-    text-align: left; }
+    text-align: left;
+    color: #fff; }
 
 #block-bean-social-media .field-item {
   width: 16%;
