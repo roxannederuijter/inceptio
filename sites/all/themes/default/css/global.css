@@ -379,6 +379,8 @@ p {
   color: #fff;
   box-sizing: border-box;
   margin-bottom: 40px; }
+  .block-views-vacatures-block-1 .views-row .views-field-body {
+    color: #000; }
   .block-views-vacatures-block-1 .views-row .views-field-field-image {
     float: left; }
   .block-views-vacatures-block-1 .views-row .views-field-title {
