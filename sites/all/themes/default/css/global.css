@@ -614,6 +614,9 @@ iframe {
   .context-greenagents #zone-postscript-wrapper #zone-postscript {
     padding-bottom: 0; }
 
+.block-views-blog-block-1 .views-row {
+  width: 50%;
+  float: left; }
 .block-views-blog-block-1 .view-id-blog .views-row {
   margin-bottom: 40px; }
 .block-views-blog-block-1 .view-id-blog .group-left {
