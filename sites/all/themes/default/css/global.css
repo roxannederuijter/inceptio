@@ -296,7 +296,7 @@ p {
     padding: 4px 0; }
 
 #zone-footer-wrapper {
-  background: linear-gradient(rgba(255, 0, 0, 0.45), rgba(255, 0, 0, 0.45)), url("img/footer.jpg");
+  background: linear-gradient(rgba(177, 179, 81, 0.45), rgba(177, 179, 81, 0.45)), url("img/footer.jpg");
   padding: 50px 0; }
   #zone-footer-wrapper h2.block-title {
     float: left;
