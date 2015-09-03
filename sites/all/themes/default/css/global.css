@@ -609,10 +609,10 @@ iframe {
 .view-id-blog .views-row {
   margin-bottom: 70px; }
 .view-id-blog .group-left {
-  width: 25% !important; }
+  width: 100% !important; }
   .view-id-blog .group-left .field-name-field-image img {
     float: left;
-    width: 90%; }
+    width: 100%; }
 .view-id-blog .group-right .field-name-title h2 {
   text-align: left;
   font-size: 24px;

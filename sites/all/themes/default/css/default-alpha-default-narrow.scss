@@ -179,3 +179,17 @@ iframe {
   }
 }
 
+.view-id-blog {
+  .views-row {
+    margin-bottom:70px;
+  }
+  .group-left {
+    width:25%!important;
+    .field-name-field-image {
+      img {
+        width:90%;
+      }
+    }
+  }
+}
+

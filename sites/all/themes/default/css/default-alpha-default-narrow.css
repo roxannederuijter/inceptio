@@ -140,4 +140,11 @@ iframe {
   float: left;
   width: 50%; }
 
+.view-id-blog .views-row {
+  margin-bottom: 70px; }
+.view-id-blog .group-left {
+  width: 25% !important; }
+  .view-id-blog .group-left .field-name-field-image img {
+    width: 90%; }
+
 /*# sourceMappingURL=default-alpha-default-narrow.css.map */
