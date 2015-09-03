@@ -117,4 +117,18 @@ iframe {
   .region-branding-inner img {
     margin-top: 0px; }
 
+#zone-footer-wrapper {
+  background: linear-gradient(rgba(177, 179, 81, 0.7), rgba(177, 179, 81, 0.7)), url("img/footer.jpg");
+  padding: 50px 0; }
+  #zone-footer-wrapper h2.block-title {
+    float: left;
+    padding-bottom: 0;
+    width: 100%;
+    text-align: left;
+    color: #fff;
+    font-size: 18px; }
+  #zone-footer-wrapper a {
+    font-weight: 100;
+    font-size: 15px; }
+
 /*# sourceMappingURL=default-alpha-default-narrow.css.map */

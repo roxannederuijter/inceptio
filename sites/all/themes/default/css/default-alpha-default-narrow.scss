@@ -136,3 +136,26 @@ iframe {
   }
 }
 
+#zone-footer-wrapper {
+  background:
+  linear-gradient(
+                  rgba(177, 179, 81, 0.70),
+                  rgba(177, 179, 81, 0.70)
+  ),
+  url('img/footer.jpg');
+  padding:50px 0;
+  h2.block-title {
+    float:left;
+    padding-bottom:0;
+    width:100%;
+    text-align:left;
+    color:#fff;
+    font-size:18px;
+  }
+  a {
+    font-weight:100;
+    font-size:15px;
+
+  }
+}
+
