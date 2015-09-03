@@ -202,6 +202,13 @@ a.button {
   font-size: 1em;
   display: inline-block; }
 
+a.inceptio-button {
+  background-color: #b1b351;
+  color: #fff;
+  padding: 14px 25px;
+  font-size: 1em;
+  display: inline-block; }
+
 #zone-user-wrapper {
   background-color: #353535; }
 
