@@ -328,7 +328,10 @@ p {
     color: #000; }
 .region-footer-third li:before {
   content: "";
-  background-image: url("img/square.png"); }
+  background-image: url("img/square.png");
+  background-size: 25px;
+  height: 25px;
+  width: 25px; }
 
 /* Over ons */
 .ui-icon {
