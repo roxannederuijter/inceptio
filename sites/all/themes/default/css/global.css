@@ -327,8 +327,8 @@ p {
   .region-footer-third li a:hover {
     color: #000; }
 .region-footer-third li:before {
-  content: "\e021";
-  font-family: font-awesome; }
+  content: "\f09b";
+  font-family: FontAwesome; }
 
 /* Over ons */
 .ui-icon {
