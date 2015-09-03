@@ -319,7 +319,8 @@ p {
 
 .region-footer-third li {
   list-style: none;
-  color: #fff; }
+  color: #fff;
+  font-size: 15px; }
   .region-footer-third li a {
     color: #fff;
     font-size: 15px; }
