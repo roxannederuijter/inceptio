@@ -186,14 +186,20 @@ p {
   li.adres:before {
     content: "\f015";
     font-family: FontAwesome;
+    font-size: 18px;
+    padding-right: 5px;
   }
   li.email:before {
     content: "\f0e0";
     font-family: FontAwesome;
+    font-size: 18px;
+    padding-right: 5px;
   }
   li.tel:before {
     content: "\f095";
     font-family: FontAwesome;
+    font-size: 18px;
+    padding-right: 5px;
   }
 }
 
