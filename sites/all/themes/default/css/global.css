@@ -321,7 +321,8 @@ p {
   list-style: none;
   color: #fff; }
   .region-footer-third li a {
-    color: #fff; }
+    color: #fff;
+    font-size: 15px; }
   .region-footer-third li a:hover {
     color: #000; }
 
