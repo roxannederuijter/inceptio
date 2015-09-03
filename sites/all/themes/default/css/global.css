@@ -327,7 +327,7 @@ p {
   .region-footer-third li a:hover {
     color: #000; }
 .region-footer-third li:before {
-  content: "/f015"; }
+  content: "\f015"; }
 
 /* Over ons */
 .ui-icon {
