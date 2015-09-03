@@ -183,6 +183,10 @@ p {
       color:#000;
     }
   }
+  li:before {
+    content:"";
+    background-image:url('img/square.png');
+  }
 }
 
 /* Over ons */
