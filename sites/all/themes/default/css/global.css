@@ -652,13 +652,13 @@ iframe {
   .block-views-blog-block-1 .views-row-odd {
     padding-right: 2.5%; }
   .block-views-blog-block-1 .views-row {
-    width: 48.75%;
+    width: 100%;
     float: left; }
   .block-views-blog-block-1 .view-id-blog .group-left {
     width: 100% !important; }
     .block-views-blog-block-1 .view-id-blog .group-left .field-name-field-image img {
       float: left;
-      width: 50%; }
+      width: 100%; }
   .block-views-blog-block-1 .view-id-blog .group-right {
     width: 100% !important; }
     .block-views-blog-block-1 .view-id-blog .group-right .field-name-title h2 {

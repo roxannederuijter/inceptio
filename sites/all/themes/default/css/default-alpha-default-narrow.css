@@ -131,4 +131,13 @@ iframe {
     font-weight: 100;
     font-size: 15px; }
 
+.block-views-blog-block-1 .views-row-odd {
+  padding-right: 2.5%; }
+.block-views-blog-block-1 .views-row {
+  width: 48.75%;
+  float: left; }
+.block-views-blog-block-1 .view-id-blog .group-left .field-name-field-image img {
+  float: left;
+  width: 50%; }
+
 /*# sourceMappingURL=default-alpha-default-narrow.css.map */
