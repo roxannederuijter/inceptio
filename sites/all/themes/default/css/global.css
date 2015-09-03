@@ -326,8 +326,14 @@ p {
     font-size: 15px; }
   .region-footer-third li a:hover {
     color: #000; }
-.region-footer-third li:before {
+.region-footer-third li.adres:before {
   content: "\f015";
+  font-family: FontAwesome; }
+.region-footer-third li.email:before {
+  content: "\f0e0";
+  font-family: FontAwesome; }
+.region-footer-third li.tel:before {
+  content: "\f095";
   font-family: FontAwesome; }
 
 /* Over ons */
