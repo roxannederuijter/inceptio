@@ -303,7 +303,11 @@ p {
     padding-bottom: 0;
     width: 100%;
     text-align: left;
-    color: #fff; }
+    color: #fff;
+    font-size: 18px; }
+  #zone-footer-wrapper a {
+    font-weight: 100;
+    font-size: 15; }
 
 #block-bean-social-media .field-item {
   width: 16%;
