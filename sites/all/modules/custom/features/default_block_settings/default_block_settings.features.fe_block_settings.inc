@@ -720,8 +720,7 @@ function default_block_settings_default_fe_block_settings() {
     'delta' => 'banner-block',
     'module' => 'views',
     'node_types' => array(),
-    'pages' => 'neem-contact-met-ons-op
-greenagents*',
+    'pages' => '',
     'roles' => array(),
     'themes' => array(
       'default' => array(

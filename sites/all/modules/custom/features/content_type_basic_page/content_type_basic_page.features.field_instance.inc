@@ -10,26 +10,32 @@
 function content_type_basic_page_field_default_field_instances() {
   $field_instances = array();
 
-  // Exported field_instance: 'field_collection_item-field_banner-field_image'
-  $field_instances['field_collection_item-field_banner-field_image'] = array(
-    'bundle' => 'field_banner',
+  // Exported field_instance: 'node-page-field_banners'
+  $field_instances['node-page-field_banners'] = array(
+    'bundle' => 'page',
     'deleted' => 0,
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'hidden',
+        'label' => 'above',
         'module' => 'image',
         'settings' => array(
           'image_link' => '',
-          'image_style' => 'banner',
+          'image_style' => '',
         ),
         'type' => 'image',
+        'weight' => 2,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
         'weight' => 0,
       ),
     ),
-    'entity_type' => 'field_collection_item',
-    'field_name' => 'field_image',
-    'label' => 'Afbeelding',
+    'entity_type' => 'node',
+    'field_name' => 'field_banners',
+    'label' => 'banner',
     'required' => 0,
     'settings' => array(
       'alt_field' => 0,
@@ -62,7 +68,7 @@ function content_type_basic_page_field_default_field_instances() {
         ),
       ),
       'type' => 'media_generic',
-      'weight' => 1,
+      'weight' => 42,
     ),
   );
 
@@ -127,8 +133,8 @@ function content_type_basic_page_field_default_field_instances() {
 
   // Translatables
   // Included for use with string extractors like potx.
-  t('Afbeelding');
   t('Paragraph\'s');
+  t('banner');
 
   return $field_instances;
 }

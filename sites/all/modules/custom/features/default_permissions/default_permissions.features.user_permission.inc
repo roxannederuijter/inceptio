@@ -14,7 +14,6 @@ function default_permissions_user_default_permissions() {
   $permissions['access administration menu'] = array(
     'name' => 'access administration menu',
     'roles' => array(
-      'Staff' => 'Staff',
       'administrator' => 'administrator',
     ),
     'module' => 'admin_menu',
@@ -24,7 +23,6 @@ function default_permissions_user_default_permissions() {
   $permissions['access administration pages'] = array(
     'name' => 'access administration pages',
     'roles' => array(
-      'Staff' => 'Staff',
       'administrator' => 'administrator',
     ),
     'module' => 'system',
@@ -43,7 +41,6 @@ function default_permissions_user_default_permissions() {
   $permissions['access all webform results'] = array(
     'name' => 'access all webform results',
     'roles' => array(
-      'Staff' => 'Staff',
       'administrator' => 'administrator',
     ),
     'module' => 'webform',
@@ -73,7 +70,6 @@ function default_permissions_user_default_permissions() {
   $permissions['access content overview'] = array(
     'name' => 'access content overview',
     'roles' => array(
-      'Staff' => 'Staff',
       'administrator' => 'administrator',
     ),
     'module' => 'node',
@@ -101,7 +97,6 @@ function default_permissions_user_default_permissions() {
   $permissions['access media browser'] = array(
     'name' => 'access media browser',
     'roles' => array(
-      'Staff' => 'Staff',
       'administrator' => 'administrator',
     ),
     'module' => 'media',
@@ -111,7 +106,6 @@ function default_permissions_user_default_permissions() {
   $permissions['access own webform results'] = array(
     'name' => 'access own webform results',
     'roles' => array(
-      'Staff' => 'Staff',
       'administrator' => 'administrator',
     ),
     'module' => 'webform',
@@ -121,7 +115,6 @@ function default_permissions_user_default_permissions() {
   $permissions['access own webform submissions'] = array(
     'name' => 'access own webform submissions',
     'roles' => array(
-      'Staff' => 'Staff',
       'administrator' => 'administrator',
     ),
     'module' => 'webform',
@@ -149,7 +142,6 @@ function default_permissions_user_default_permissions() {
   $permissions['access user profiles'] = array(
     'name' => 'access user profiles',
     'roles' => array(
-      'Staff' => 'Staff',
       'administrator' => 'administrator',
     ),
     'module' => 'user',
@@ -258,7 +250,6 @@ function default_permissions_user_default_permissions() {
   $permissions['administer content types'] = array(
     'name' => 'administer content types',
     'roles' => array(
-      'Staff' => 'Staff',
       'administrator' => 'administrator',
     ),
     'module' => 'node',
@@ -313,7 +304,6 @@ function default_permissions_user_default_permissions() {
   $permissions['administer google analytics'] = array(
     'name' => 'administer google analytics',
     'roles' => array(
-      'Staff' => 'Staff',
       'administrator' => 'administrator',
     ),
     'module' => 'googleanalytics',
@@ -350,7 +340,6 @@ function default_permissions_user_default_permissions() {
   $permissions['administer media browser'] = array(
     'name' => 'administer media browser',
     'roles' => array(
-      'Staff' => 'Staff',
       'administrator' => 'administrator',
     ),
     'module' => 'media',
@@ -360,7 +349,6 @@ function default_permissions_user_default_permissions() {
   $permissions['administer menu'] = array(
     'name' => 'administer menu',
     'roles' => array(
-      'Staff' => 'Staff',
       'administrator' => 'administrator',
     ),
     'module' => 'menu',
@@ -397,7 +385,6 @@ function default_permissions_user_default_permissions() {
   $permissions['administer nodes'] = array(
     'name' => 'administer nodes',
     'roles' => array(
-      'Staff' => 'Staff',
       'administrator' => 'administrator',
     ),
     'module' => 'node',
@@ -407,7 +394,6 @@ function default_permissions_user_default_permissions() {
   $permissions['administer page titles'] = array(
     'name' => 'administer page titles',
     'roles' => array(
-      'Staff' => 'Staff',
       'administrator' => 'administrator',
     ),
     'module' => 'page_title',
@@ -516,7 +502,6 @@ function default_permissions_user_default_permissions() {
   $permissions['administer users'] = array(
     'name' => 'administer users',
     'roles' => array(
-      'Staff' => 'Staff',
       'administrator' => 'administrator',
     ),
     'module' => 'user',
@@ -535,7 +520,6 @@ function default_permissions_user_default_permissions() {
   $permissions['administer xmlsitemap'] = array(
     'name' => 'administer xmlsitemap',
     'roles' => array(
-      'Staff' => 'Staff',
       'administrator' => 'administrator',
     ),
     'module' => 'xmlsitemap',
@@ -572,7 +556,6 @@ function default_permissions_user_default_permissions() {
   $permissions['bypass node access'] = array(
     'name' => 'bypass node access',
     'roles' => array(
-      'Staff' => 'Staff',
       'administrator' => 'administrator',
     ),
     'module' => 'node',
@@ -602,7 +585,6 @@ function default_permissions_user_default_permissions() {
   $permissions['create any greenagent_banner bean'] = array(
     'name' => 'create any greenagent_banner bean',
     'roles' => array(
-      'Staff' => 'Staff',
       'administrator' => 'administrator',
     ),
     'module' => 'bean',
@@ -612,7 +594,6 @@ function default_permissions_user_default_permissions() {
   $permissions['create any social_media bean'] = array(
     'name' => 'create any social_media bean',
     'roles' => array(
-      'Staff' => 'Staff',
       'administrator' => 'administrator',
     ),
     'module' => 'bean',
@@ -663,7 +644,6 @@ function default_permissions_user_default_permissions() {
   $permissions['delete all webform submissions'] = array(
     'name' => 'delete all webform submissions',
     'roles' => array(
-      'Staff' => 'Staff',
       'administrator' => 'administrator',
     ),
     'module' => 'webform',
@@ -687,7 +667,6 @@ function default_permissions_user_default_permissions() {
   $permissions['delete any greenagent_banner bean'] = array(
     'name' => 'delete any greenagent_banner bean',
     'roles' => array(
-      'Staff' => 'Staff',
       'administrator' => 'administrator',
     ),
     'module' => 'bean',
@@ -711,7 +690,6 @@ function default_permissions_user_default_permissions() {
   $permissions['delete any social_media bean'] = array(
     'name' => 'delete any social_media bean',
     'roles' => array(
-      'Staff' => 'Staff',
       'administrator' => 'administrator',
     ),
     'module' => 'bean',
@@ -777,7 +755,6 @@ function default_permissions_user_default_permissions() {
   $permissions['delete own webform submissions'] = array(
     'name' => 'delete own webform submissions',
     'roles' => array(
-      'Staff' => 'Staff',
       'administrator' => 'administrator',
     ),
     'module' => 'webform',
@@ -787,7 +764,6 @@ function default_permissions_user_default_permissions() {
   $permissions['delete revisions'] = array(
     'name' => 'delete revisions',
     'roles' => array(
-      'Staff' => 'Staff',
       'administrator' => 'administrator',
     ),
     'module' => 'node',
@@ -868,7 +844,6 @@ function default_permissions_user_default_permissions() {
   $permissions['edit all webform submissions'] = array(
     'name' => 'edit all webform submissions',
     'roles' => array(
-      'Staff' => 'Staff',
       'administrator' => 'administrator',
     ),
     'module' => 'webform',
@@ -892,7 +867,6 @@ function default_permissions_user_default_permissions() {
   $permissions['edit any greenagent_banner bean'] = array(
     'name' => 'edit any greenagent_banner bean',
     'roles' => array(
-      'Staff' => 'Staff',
       'administrator' => 'administrator',
     ),
     'module' => 'bean',
@@ -916,7 +890,6 @@ function default_permissions_user_default_permissions() {
   $permissions['edit any social_media bean'] = array(
     'name' => 'edit any social_media bean',
     'roles' => array(
-      'Staff' => 'Staff',
       'administrator' => 'administrator',
     ),
     'module' => 'bean',
@@ -1000,7 +973,6 @@ function default_permissions_user_default_permissions() {
   $permissions['edit own webform submissions'] = array(
     'name' => 'edit own webform submissions',
     'roles' => array(
-      'Staff' => 'Staff',
       'administrator' => 'administrator',
     ),
     'module' => 'webform',
@@ -1010,7 +982,6 @@ function default_permissions_user_default_permissions() {
   $permissions['edit webform components'] = array(
     'name' => 'edit webform components',
     'roles' => array(
-      'Staff' => 'Staff',
       'administrator' => 'administrator',
     ),
     'module' => 'webform',
@@ -1029,7 +1000,6 @@ function default_permissions_user_default_permissions() {
   $permissions['flush caches'] = array(
     'name' => 'flush caches',
     'roles' => array(
-      'Staff' => 'Staff',
       'administrator' => 'administrator',
     ),
     'module' => 'admin_menu',
@@ -1066,7 +1036,6 @@ function default_permissions_user_default_permissions() {
   $permissions['opt-in or out of tracking'] = array(
     'name' => 'opt-in or out of tracking',
     'roles' => array(
-      'Staff' => 'Staff',
       'administrator' => 'administrator',
     ),
     'module' => 'googleanalytics',
@@ -1085,7 +1054,6 @@ function default_permissions_user_default_permissions() {
   $permissions['revert revisions'] = array(
     'name' => 'revert revisions',
     'roles' => array(
-      'Staff' => 'Staff',
       'administrator' => 'administrator',
     ),
     'module' => 'node',
@@ -1115,7 +1083,6 @@ function default_permissions_user_default_permissions() {
   $permissions['set page title'] = array(
     'name' => 'set page title',
     'roles' => array(
-      'Staff' => 'Staff',
       'administrator' => 'administrator',
     ),
     'module' => 'page_title',
@@ -1143,7 +1110,6 @@ function default_permissions_user_default_permissions() {
   $permissions['use PHP for tracking visibility'] = array(
     'name' => 'use PHP for tracking visibility',
     'roles' => array(
-      'Staff' => 'Staff',
       'administrator' => 'administrator',
     ),
     'module' => 'googleanalytics',
@@ -1270,7 +1236,6 @@ function default_permissions_user_default_permissions() {
   $permissions['view own unpublished content'] = array(
     'name' => 'view own unpublished content',
     'roles' => array(
-      'Staff' => 'Staff',
       'administrator' => 'administrator',
     ),
     'module' => 'node',
@@ -1280,7 +1245,6 @@ function default_permissions_user_default_permissions() {
   $permissions['view private files'] = array(
     'name' => 'view private files',
     'roles' => array(
-      'Staff' => 'Staff',
       'administrator' => 'administrator',
     ),
     'module' => 'file_entity',
@@ -1290,7 +1254,6 @@ function default_permissions_user_default_permissions() {
   $permissions['view revisions'] = array(
     'name' => 'view revisions',
     'roles' => array(
-      'Staff' => 'Staff',
       'administrator' => 'administrator',
     ),
     'module' => 'node',
@@ -1300,7 +1263,6 @@ function default_permissions_user_default_permissions() {
   $permissions['view the administration theme'] = array(
     'name' => 'view the administration theme',
     'roles' => array(
-      'Staff' => 'Staff',
       'administrator' => 'administrator',
     ),
     'module' => 'system',

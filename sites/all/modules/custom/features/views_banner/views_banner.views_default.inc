@@ -31,23 +31,36 @@ function views_banner_views_default_views() {
   $handler->display->display_options['pager']['type'] = 'none';
   $handler->display->display_options['style_plugin'] = 'slideshow';
   $handler->display->display_options['row_plugin'] = 'fields';
-  /* Field: Content: Banner */
-  $handler->display->display_options['fields']['field_banner']['id'] = 'field_banner';
-  $handler->display->display_options['fields']['field_banner']['table'] = 'field_data_field_banner';
-  $handler->display->display_options['fields']['field_banner']['field'] = 'field_banner';
-  $handler->display->display_options['fields']['field_banner']['label'] = '';
-  $handler->display->display_options['fields']['field_banner']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['field_banner']['type'] = 'field_collection_fields';
-  $handler->display->display_options['fields']['field_banner']['settings'] = array(
-    'view_mode' => 'full',
+  /* Field: Content: banner */
+  $handler->display->display_options['fields']['field_banners']['id'] = 'field_banners';
+  $handler->display->display_options['fields']['field_banners']['table'] = 'field_data_field_banners';
+  $handler->display->display_options['fields']['field_banners']['field'] = 'field_banners';
+  $handler->display->display_options['fields']['field_banners']['label'] = '';
+  $handler->display->display_options['fields']['field_banners']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_banners']['click_sort_column'] = 'fid';
+  $handler->display->display_options['fields']['field_banners']['type'] = 'picture';
+  $handler->display->display_options['fields']['field_banners']['settings'] = array(
+    'picture_mapping' => 'picture_mapping',
+    'fallback_image_style' => '',
+    'lazyload' => 0,
+    'lazyload_aspect_ratio' => 0,
+    'image_link' => '',
   );
-  $handler->display->display_options['fields']['field_banner']['group_rows'] = FALSE;
-  $handler->display->display_options['fields']['field_banner']['delta_offset'] = '0';
   /* Sort criterion: Content: Post date */
   $handler->display->display_options['sorts']['created']['id'] = 'created';
   $handler->display->display_options['sorts']['created']['table'] = 'node';
   $handler->display->display_options['sorts']['created']['field'] = 'created';
   $handler->display->display_options['sorts']['created']['order'] = 'DESC';
+  /* Contextual filter: Content: Nid */
+  $handler->display->display_options['arguments']['nid']['id'] = 'nid';
+  $handler->display->display_options['arguments']['nid']['table'] = 'node';
+  $handler->display->display_options['arguments']['nid']['field'] = 'nid';
+  $handler->display->display_options['arguments']['nid']['default_action'] = 'default';
+  $handler->display->display_options['arguments']['nid']['exception']['title'] = 'Alle';
+  $handler->display->display_options['arguments']['nid']['default_argument_type'] = 'node';
+  $handler->display->display_options['arguments']['nid']['summary']['number_of_records'] = '0';
+  $handler->display->display_options['arguments']['nid']['summary']['format'] = 'default_summary';
+  $handler->display->display_options['arguments']['nid']['summary_options']['items_per_page'] = '25';
   /* Filter criterion: Content: Published */
   $handler->display->display_options['filters']['status']['id'] = 'status';
   $handler->display->display_options['filters']['status']['table'] = 'node';
@@ -60,7 +73,7 @@ function views_banner_views_default_views() {
   $handler->display->display_options['filters']['type']['table'] = 'node';
   $handler->display->display_options['filters']['type']['field'] = 'type';
   $handler->display->display_options['filters']['type']['value'] = array(
-    'banner' => 'banner',
+    'page' => 'page',
   );
 
   /* Display: Block */
@@ -74,6 +87,7 @@ function views_banner_views_default_views() {
     t('Sort by'),
     t('Asc'),
     t('Desc'),
+    t('Alle'),
     t('Block'),
   );
   $export['banner'] = $view;

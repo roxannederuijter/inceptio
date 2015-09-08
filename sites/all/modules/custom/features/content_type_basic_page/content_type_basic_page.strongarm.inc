@@ -62,6 +62,9 @@ function content_type_basic_page_strongarm() {
         'redirect' => array(
           'weight' => '30',
         ),
+        'xmlsitemap' => array(
+          'weight' => '30',
+        ),
       ),
       'display' => array(),
     ),

@@ -384,3 +384,10 @@ settings[alpha_layouts_alpha_default_wide1920_responsive] = '1'
 settings[alpha_layouts_alpha_default_wide1920_media] = 'all and (min-width: 1940px)'
 settings[alpha_layouts_alpha_default_wide1920_weight] = '6'
 ; End: "settings" Lines to add to yoursubtheme.info
+
+
+; For Picture 2.x
+breakpoints[tv] = only screen and (min-width: 3456px)
+breakpoints[wide] = (min-width: 851px)
+breakpoints[narrow] = (min-width: 560px)
+breakpoints[mobile] = (min-width: 0px)

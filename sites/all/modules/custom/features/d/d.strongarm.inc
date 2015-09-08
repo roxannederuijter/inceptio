@@ -144,7 +144,7 @@ function d_strongarm() {
     'domain' => '',
     'prefix' => 'nl',
     'weight' => '0',
-    'javascript' => 'gagcLG-YkkDYp0rytJa9ozYwPhidxVfRmPbAX96NqtE',
+    'javascript' => 'e2022rRq6-E8Co4HpulcfoQCarAoscBFdmoE6ItS6Ac',
   );
   $export['language_default'] = $strongarm;
 
@@ -635,7 +635,7 @@ function d_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'user_register';
-  $strongarm->value = '0';
+  $strongarm->value = 2;
   $export['user_register'] = $strongarm;
 
   return $export;

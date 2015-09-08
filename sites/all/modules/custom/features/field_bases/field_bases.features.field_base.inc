@@ -96,26 +96,26 @@ function field_bases_field_default_field_bases() {
     'type' => 'image',
   );
 
-  // Exported field_base: 'field_banner'
-  $field_bases['field_banner'] = array(
+  // Exported field_base: 'field_banners'
+  $field_bases['field_banners'] = array(
     'active' => 1,
-    'cardinality' => -1,
+    'cardinality' => 1,
     'deleted' => 0,
     'entity_types' => array(),
-    'field_name' => 'field_banner',
+    'field_name' => 'field_banners',
     'indexes' => array(
-      'revision_id' => array(
-        0 => 'revision_id',
+      'fid' => array(
+        0 => 'fid',
       ),
     ),
     'locked' => 0,
-    'module' => 'field_collection',
+    'module' => 'image',
     'settings' => array(
-      'hide_blank_items' => 1,
-      'path' => '',
+      'default_image' => 0,
+      'uri_scheme' => 'public',
     ),
     'translatable' => 0,
-    'type' => 'field_collection',
+    'type' => 'image',
   );
 
   // Exported field_base: 'field_bedrijf'
