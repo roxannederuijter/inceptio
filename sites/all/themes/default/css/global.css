@@ -569,7 +569,8 @@ iframe {
   float: left;
   margin-bottom: 45px; }
   #block-views-pdf-block .field-name-field-pdf-field {
-    font-size: 14px; }
+    font-size: 14px;
+    color: #fff; }
 
 /* Sticky menu */
 .admin-menu .is-sticky .zone-branding-wrapper {
@@ -687,5 +688,8 @@ iframe {
 
 .center {
   text-align: center !important; }
+
+.context-greenagents .region-postscript-first h2 {
+  color: #fff; }
 
 /*# sourceMappingURL=global.css.map */

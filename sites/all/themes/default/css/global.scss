@@ -500,6 +500,7 @@ iframe {
   margin-bottom:45px;
   .field-name-field-pdf-field {
     font-size:14px;
+    color:#fff;
   }
 
 }
@@ -679,4 +680,12 @@ iframe {
 
 .center {
   text-align:center!important;
+}
+
+.context-greenagents {
+  .region-postscript-first {
+    h2 {
+      color:#fff;
+    }
+  }
 }
