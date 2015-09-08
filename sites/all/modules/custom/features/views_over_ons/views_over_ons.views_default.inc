@@ -67,6 +67,9 @@ function views_over_ons_views_default_views() {
   /* Display: Pagina */
   $handler = $view->new_display('page', 'Pagina', 'page_1');
   $handler->display->display_options['path'] = 'over-ons';
+
+  /* Display: Blok */
+  $handler = $view->new_display('block', 'Blok', 'block_1');
   $translatables['over_ons'] = array(
     t('Master'),
     t('Over ons'),
@@ -77,6 +80,7 @@ function views_over_ons_views_default_views() {
     t('Asc'),
     t('Desc'),
     t('Pagina'),
+    t('Blok'),
   );
   $export['over_ons'] = $view;
 
