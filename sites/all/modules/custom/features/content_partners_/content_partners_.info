@@ -12,6 +12,7 @@ dependencies[] = text
 features[ctools][] = strongarm:strongarm:1
 features[features_api][] = api:2
 features[field_instance][] = node-partners-body
+features[field_instance][] = node-partners-field_banners
 features[field_instance][] = node-partners-field_image
 features[node][] = partners
 features[variable][] = field_bundle_settings_node__partners
