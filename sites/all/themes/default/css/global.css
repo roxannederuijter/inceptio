@@ -537,7 +537,8 @@ iframe {
 #block-views-pdf-block .field-name-field-titel {
   text-align: center;
   word-wrap: break-word;
-  font-size: 14px; }
+  font-size: 14px;
+  color: #fff; }
 #block-views-pdf-block img.file-icon {
   display: none; }
 #block-views-pdf-block .field-name-field-pdf-field {
@@ -569,8 +570,7 @@ iframe {
   float: left;
   margin-bottom: 45px; }
   #block-views-pdf-block .field-name-field-pdf-field {
-    font-size: 14px;
-    color: #fff; }
+    font-size: 14px; }
 
 /* Sticky menu */
 .admin-menu .is-sticky .zone-branding-wrapper {
