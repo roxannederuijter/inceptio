@@ -65,11 +65,11 @@ function default_image_styles_image_default_styles() {
   $styles['banner_responsivebreakpoints_theme_default_narrow_1x'] = array(
     'label' => 'banner_responsivebreakpoints_theme_default_narrow_1x',
     'effects' => array(
-      11 => array(
+      1 => array(
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => 100,
-          'height' => 100,
+          'width' => 850,
+          'height' => 500,
         ),
         'weight' => 1,
       ),

@@ -70,6 +70,11 @@ function views_over_ons_views_default_views() {
 
   /* Display: Blok */
   $handler = $view->new_display('block', 'Blok', 'block_1');
+  $handler->display->display_options['defaults']['sorts'] = FALSE;
+  /* Sort criterion: Content: Updated date */
+  $handler->display->display_options['sorts']['changed']['id'] = 'changed';
+  $handler->display->display_options['sorts']['changed']['table'] = 'node';
+  $handler->display->display_options['sorts']['changed']['field'] = 'changed';
   $translatables['over_ons'] = array(
     t('Master'),
     t('Over ons'),
