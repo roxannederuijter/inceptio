@@ -350,11 +350,13 @@ function content_ds_settings_ds_layout_settings_info() {
     'regions' => array(
       'ds_content' => array(
         0 => 'title',
-        1 => 'webform',
+        1 => 'body',
+        2 => 'webform',
       ),
     ),
     'fields' => array(
       'title' => 'ds_content',
+      'body' => 'ds_content',
       'webform' => 'ds_content',
     ),
     'classes' => array(),
